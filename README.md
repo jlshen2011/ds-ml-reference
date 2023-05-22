@@ -1,13 +1,13 @@
-# Data Science and Machine Learning Reading List: From 101 to Advanced Topics
+# Data Science and Machine Learning Reading List: 
+# From 101 to Advanced Topics
 
 
 ## Part I: Foundations
-### 1 Probability Theory and Statistical Inference
-#### Probability Space and Measure
-* [Probability Space](https://en.wikipedia.org/wiki/Probability_space) `wiki`
-
-### Common Probability Distributions
-* [Univariate Distribution Relationships](http://www.math.wm.edu/~leemis/2008amstat.pdf) `paper`
+### 1 Probability and Statistical
+* Probability Space and Measure
+	* [Probability Space](https://en.wikipedia.org/wiki/Probability_space) `wiki`
+* Common Probability Distributions
+	* [Univariate Distribution Relationships](http://www.math.wm.edu/~leemis/2008amstat.pdf) `paper`
 
 ### Convergence of Random Variables
 * [Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers) `wiki`
