@@ -1,7 +1,6 @@
 # Data Science and Machine Learning Reading List: From 101 to Advanced Topics
 
 ### Table of Contents
-* Part I: Theory and Methods
 * [Probability and Statistics](#Probability-and-Statistics)
 * [Time Series Analysis](#Time-Series-Analysis)
 * [Linear Regression](#Linear-Regression)
@@ -11,9 +10,9 @@
 * [Data Preparation](#Data-Preparation)
 * [Model Evaluation](#Model-Evaluation)
 * [Causal Inference](#Causal-Inference)
-* [Deep Learning](#Deep Learning)
-* [Recommendation Systems](Recommendation Systems)
-* [Data Structures and Algorithms](Data Structures and Algorithms)
+* [Deep Learning](#Deep-Learning)
+* [Recommendation Systems](#Recommendation-Systems)
+* [Data Structures and Algorithms](#Data-Structures-and-Algorithms)
 
 ### Preface
 
