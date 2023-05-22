@@ -133,23 +133,17 @@ This list comprises recommended readings to help you prepare for data science an
 	* [CSC321 lecture 21: Bayesian Hyperparameter Optimization](https://netman.aiops.org/~peidan/ANM2019/2.MachineLearningBasics/LectureCoverage/27.BayesianOptimization.pdf) 
 	* [Practical Bayesian Optimization of Machine Learning Algorithms](https://proceedings.neurips.cc/paper/2012/file/05311655a15b75fab86956663e1819cd-Paper.pdf) 
 * Model evaluation metrics
-	* Classification metrics
-		* [Precision and Recall](https://en.wikipedia.org/wiki/Precision_and_recall) 
-		* [F1-Score](https://en.wikipedia.org/wiki/F-score) 
-		* [Confusion Matrix](https://en.wikipedia.org/wiki/Confusion_matrix) 
-		* [Area Under the ROC Curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve) 
-	* Regression metrics
-		* [Mean Squared Error](https://en.wikipedia.org/wiki/Mean_squared_error) 
-		* [Mean Absolute Deviation](https://en.wikipedia.org/wiki/Average_absolute_deviation) 
-	* Ranking metrics
-		* [Recall and Precision at $K$ for Recommender Systems](https://medium.com/@m_n_malaeb/recall-and-precision-at-k-for-recommender-systems-618483226c54) 
-		* [Normalized Discounted Cumulative Gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain#Normalized_DCG) 
-		* [Ranking Measures and Loss Functions in Learning to Rank](https://papers.nips.cc/paper/2009/file/2f55707d4193dc27118a0f19a1985716-Paper.pdf) 
-	* Information criteria
-		* Akaike Information Criterion
-			* Section 7.5, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-		* Bayes Information Criterion
-			* Section 7.7, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+	* [Precision and Recall](https://en.wikipedia.org/wiki/Precision_and_recall) 
+	* [F1-Score](https://en.wikipedia.org/wiki/F-score) 
+	* [Confusion Matrix](https://en.wikipedia.org/wiki/Confusion_matrix) 
+	* [Area Under the ROC Curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve) 
+	* [Mean Squared Error](https://en.wikipedia.org/wiki/Mean_squared_error) 
+	* [Mean Absolute Deviation](https://en.wikipedia.org/wiki/Average_absolute_deviation) 
+	* [Recall and Precision at $K$ for Recommender Systems](https://medium.com/@m_n_malaeb/recall-and-precision-at-k-for-recommender-systems-618483226c54) 
+	* [Normalized Discounted Cumulative Gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain#Normalized_DCG) 
+	* [Ranking Measures and Loss Functions in Learning to Rank](https://papers.nips.cc/paper/2009/file/2f55707d4193dc27118a0f19a1985716-Paper.pdf) 
+	* Akaike Information Criterion, Section 7.5, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+	* Bayes Information Criterion, Section 7.7, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 
 
 ### Causal Inference
