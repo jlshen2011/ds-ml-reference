@@ -42,10 +42,6 @@ This list comprises recommended readings to help you prepare for data science an
 ### Linear Regression
 * Ordinary Least Squares
 	* Section 3.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-* Gauss-Markov Theorem
-	* Section 3.2.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-* Inference
-	* Section 3.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 * R Squared
 	* [Coefficient of Determination](https://en.wikipedia.org/wiki/Coefficient_of_determination) 
 * Violations of Linear Regression Assumptions and Remedies
@@ -54,20 +50,9 @@ This list comprises recommended readings to help you prepare for data science an
 	* [Newey–West Estimator](https://en.wikipedia.org/wiki/Newey%E2%80%93West_estimator) 
 	* [Cochrane–Orcutt Estimation](https://en.wikipedia.org/wiki/Cochrane%E2%80%93Orcutt_estimation) 
 * Shrinkage methods
-	* Ridge Regression
-		* Section 3.4.1, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-	* Lasso and Its Variants
-		* Section 3.4.2, 3.4.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-		* [Regression Shrinkage and Selection via the Lasso](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.7574&rep=rep1&type=pdf) 
-		* [Least Angle Regression](https://statweb.stanford.edu/~tibs/ftp/lars.pdf) 
-		* [Regularization and Variable Selection via the Elastic Net](https://www.jstor.org/stable/3647580?seq=1) 
-		* [Model Selection and Estimation in Regression with Grouped Variables](http://www.columbia.edu/~my2550/papers/glasso.final.pdf) 
-		* [The Adaptive Lasso and Its Oracle Properties](http://users.stat.umn.edu/~zouxx019/Papers/adalasso.pdf) 
-		* [Exact Post-Selection Inference, with Application to the Lasso](https://www.stat.cmu.edu/~ryantibs/statml/lectures/Lee-Sun-Sun-Taylor.pdf) 
-	* Other Advanced Methods
-		* [Variable Selection via Nonconcave Penalized Likelihood and Its Oracle Properties](https://fan.princeton.edu/papers/01/penlike.pdf) 
-		* [Nearly Unbiased Variable Selection under Minimax Concave Penalty](https://arxiv.org/pdf/1002.4734.pdf) 
-		* [Sure Independence Screening for Ultrahigh Dimensional Feature Space](https://fan.princeton.edu/papers/06/SIS.pdf) 
+	* Section 3.4.1, 3.4.3, 3.4.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf)
+	* [Regression Shrinkage and Selection via the Lasso](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.7574&rep=rep1&type=pdf) 
+	* [Regularization and Variable Selection via the Elastic Net](https://www.jstor.org/stable/3647580?seq=1) 
 * Quantile regression
 	* [Quantile Regression](https://en.wikipedia.org/wiki/Quantile_regression) 
 
@@ -124,7 +109,6 @@ This list comprises recommended readings to help you prepare for data science an
 	* [Introduction to Boosted Trees](https://xgboost.readthedocs.io/en/latest/tutorials/model.html) 
 	* [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf) 
 	* [LightGBM: A Highly Efficient Gradient Boosting Decision Tree](http://www.audentia-gestion.fr/MICROSOFT/lightgbm.pdf) 
-	* [CatBoost: Gradient Boosting with Categorical Features Support](http://learningsys.org/nips17/assets/papers/paper_11.pdf) 
 * Stacking
 	* Section 8.8, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 
