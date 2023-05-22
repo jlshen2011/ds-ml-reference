@@ -1,8 +1,7 @@
 # Data Science and Machine Learning Reading List: From 101 to Advanced Topics
 
 
-## Part I: Foundations
-#### 1 Probability and Statistics
+### 1 Probability and Statistics
 * Probability Space and Measure
 	* [Probability Space](https://en.wikipedia.org/wiki/Probability_space)
 * Common Probability Distributions
@@ -54,45 +53,35 @@
 	* [Cochrane–Orcutt Estimation](https://en.wikipedia.org/wiki/Cochrane%E2%80%93Orcutt_estimation) 
 
 ## Shrinkage and High Dimensional Methods
-
-### Subset Selection
-* Section 3.3.1, 3.3.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-
-### Principle Component Regression
-* Section 3.5.1, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-
-### Partial Least Squares
-* Section 3.5.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-
-### Ridge Regression
-* Section 3.4.1, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-
-### Lasso and Its Variants
-* Section 3.4.2, 3.4.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-* [Regression Shrinkage and Selection via the Lasso](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.7574&rep=rep1&type=pdf) 
-* [Least Angle Regression](https://statweb.stanford.edu/~tibs/ftp/lars.pdf) 
-* [Regularization and Variable Selection via the Elastic Net](https://www.jstor.org/stable/3647580?seq=1) 
-* [Model Selection and Estimation in Regression with Grouped Variables](http://www.columbia.edu/~my2550/papers/glasso.final.pdf) 
-* [The Adaptive Lasso and Its Oracle Properties](http://users.stat.umn.edu/~zouxx019/Papers/adalasso.pdf) 
-* [Exact Post-Selection Inference, with Application to the Lasso](https://www.stat.cmu.edu/~ryantibs/statml/lectures/Lee-Sun-Sun-Taylor.pdf) 
-
-### Other Advanced Methods
-* [Variable Selection via Nonconcave Penalized Likelihood and Its Oracle Properties](https://fan.princeton.edu/papers/01/penlike.pdf) 
-* [Nearly Unbiased Variable Selection under Minimax Concave Penalty](https://arxiv.org/pdf/1002.4734.pdf) 
-* [Sure Independence Screening for Ultrahigh Dimensional Feature Space](https://fan.princeton.edu/papers/06/SIS.pdf) 
-
-## Robust Methods
-### Least Trimmed Squares
-* Section 8.4.2, [Linear Models with R, 2nd](https://www.routledge.com/Linear-Models-with-R/Faraway/p/book/9781439887332) 
-
-### Quantile Regression
-* [Quantile Regression](https://en.wikipedia.org/wiki/Quantile_regression) 
+* Subset Selection
+	* Section 3.3.1, 3.3.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* Principle Component Regression
+	* Section 3.5.1, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* Partial Least Squares
+	* Section 3.5.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* Ridge Regression
+	* Section 3.4.1, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* Lasso and Its Variants
+	* Section 3.4.2, 3.4.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+	* [Regression Shrinkage and Selection via the Lasso](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.7574&rep=rep1&type=pdf) 
+	* [Least Angle Regression](https://statweb.stanford.edu/~tibs/ftp/lars.pdf) 
+	* [Regularization and Variable Selection via the Elastic Net](https://www.jstor.org/stable/3647580?seq=1) 
+	* [Model Selection and Estimation in Regression with Grouped Variables](http://www.columbia.edu/~my2550/papers/glasso.final.pdf) 
+	* [The Adaptive Lasso and Its Oracle Properties](http://users.stat.umn.edu/~zouxx019/Papers/adalasso.pdf) 
+	* [Exact Post-Selection Inference, with Application to the Lasso](https://www.stat.cmu.edu/~ryantibs/statml/lectures/Lee-Sun-Sun-Taylor.pdf) 
+* Other Advanced Methods
+	* [Variable Selection via Nonconcave Penalized Likelihood and Its Oracle Properties](https://fan.princeton.edu/papers/01/penlike.pdf) 
+	* [Nearly Unbiased Variable Selection under Minimax Concave Penalty](https://arxiv.org/pdf/1002.4734.pdf) 
+	* [Sure Independence Screening for Ultrahigh Dimensional Feature Space](https://fan.princeton.edu/papers/06/SIS.pdf) 
+* Least Trimmed Squares
+	* Section 8.4.2, [Linear Models with R, 2nd](https://www.routledge.com/Linear-Models-with-R/Faraway/p/book/9781439887332) 
+* Quantile Regression
+	* [Quantile Regression](https://en.wikipedia.org/wiki/Quantile_regression) 
 
 
-# 3 Time Series Analysis
-
-## Linear Time Series Models
-### Stationarity 
+### 3 Time Series Analysis
+* Linear Time Series Models
+* Stationarity 
 * Section 2.1, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
 
 ### Serial Correlation
@@ -142,116 +131,54 @@
 
 # 4 Supervised Learning
 
-## Logistic Regression
-* Section 4.4, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* Logistic Regression
+	* Section 4.4, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* Naive Bayes Classifier
+	* Section 6.6.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+	* Relationship to Logistic Regression
+		* Section 4, [Generative and Discriminative Classifiers: Naive Bayes and Logistic Regression](https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf) `lecture notes`
+
+* Linear Discriminant Analysis
+	* Secion 4.4, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* K-Nearest Neighbor
+	* Secion 13.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* Support Vector Machine
+	* Secion 12.1-12.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* Classification and Regression Trees
+	* Secion 9.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* Bagging
+	* Section 8.7, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* Random Forests
+	* Section 15.1-15.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* Boosting
+	* [Boosting](https://web.stanford.edu/~hastie/TALKS/boost.pdf)  `lecture notes`
+	* [Introduction to Boosted Trees](https://xgboost.readthedocs.io/en/latest/tutorials/model.html) `documentation`
+	* [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf) 
+	* [LightGBM: A Highly Efficient Gradient Boosting Decision Tree](http://www.audentia-gestion.fr/MICROSOFT/lightgbm.pdf) 
+	* [CatBoost: Gradient Boosting with Categorical Features Support](http://learningsys.org/nips17/assets/papers/paper_11.pdf) 
+* Stacking
+	* Section 8.8, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 
 
-## Naive Bayes Classifier
-* Section 6.6.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+### 5. Unsupervised Learning
+* K-Means Clustering
+	* Section 14.3.6, 14.3.11, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+	* Relation to Gaussian Mixture Models and EM Algorithm
+	* Section 8.5.1, 14.3.7, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 
-### Relationship to Logistic Regression
-* Section 4, [Generative and Discriminative Classifiers: Naive Bayes and Logistic Regression](https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf) `lecture notes`
+* Hierarchical Clustering
+	* Section 14.3.12, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 
-## Linear Discriminant Analysis
-* Secion 4.4, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-
-## K-Nearest Neighbor
-* Secion 13.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-
-## Support Vector Machine
-* Secion 12.1-12.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-
-## Classification and Regression Trees
-* Secion 9.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-
-## Bagging
-* Section 8.7, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-
-## Random Forests
-* Section 15.1-15.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-
-## Boosting
-* [Boosting](https://web.stanford.edu/~hastie/TALKS/boost.pdf)  `lecture notes`
-* [Introduction to Boosted Trees](https://xgboost.readthedocs.io/en/latest/tutorials/model.html) `documentation`
-* [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf) 
-* [LightGBM: A Highly Efficient Gradient Boosting Decision Tree](http://www.audentia-gestion.fr/MICROSOFT/lightgbm.pdf) 
-* [CatBoost: Gradient Boosting with Categorical Features Support](http://learningsys.org/nips17/assets/papers/paper_11.pdf) 
-
-## Stacking
-* Section 8.8, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-* [Super Learner in Prediction](https://core.ac.uk/download/pdf/61320298.pdf) 
-
-# 5 Unsupervised Learning
-
-## Clustering
-
-### K-Means Clustering
-* Section 14.3.6, 14.3.11, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-
-#### Relation to Gaussian Mixture Models and EM Algorithm
-* Section 8.5.1, 14.3.7, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-
-### Hierarchical Clustering
-* Section 14.3.12, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-
-### Density-Based Clustering
-* [A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise](https://www.aaai.org/Papers/KDD/1996/KDD96-037.pdf) 
-* [OPTICS: Ordering Points to Identify the Clustering Structure](https://www.dbs.ifi.lmu.de/Publikationen/Papers/OPTICS.pdf) 
-
-### Clustering Time Series Data
-* [Clustering of Time Series Data - A Survey](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.115.6594&rep=rep1&type=pdf) 
-
-## Dimension Reduction
-### Principal Component Analysis
-* [Principal Component Analysis](https://www.comp.nus.edu.sg/~cs5240/lecture/pca.pdf) `lecture notes`
-
-### Statistical Factor Analysis
-* Secion 9.5, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-
-## Graphical Lasso
-* Section 17.1, 17.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-* [Sparse Inverse Covariance Estimation with the Graphical Lasso](http://statweb.stanford.edu/~tibs/ftp/graph.pdf) 
-* [Review of Sparse Inverse Covariance Matrix with the Graphical Lasso](https://github.com/CamDavidsonPilon/Graphical-Lasso-in-Finance/blob/master/report.pdf) 
-* [The `huge` Package for High-Dimensional Undirected Graph Estimation in R](https://cran.r-project.org/web/packages/huge/vignettes/vignette.pdf) 
+* Density-Based Clustering
+	* [A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise](https://www.aaai.org/Papers/KDD/1996/KDD96-037.pdf) 
+	* [OPTICS: Ordering Points to Identify the Clustering Structure](https://www.dbs.ifi.lmu.de/Publikationen/Papers/OPTICS.pdf) 
+* Principal Component Analysis
+	* [Principal Component Analysis](https://www.comp.nus.edu.sg/~cs5240/lecture/pca.pdf) `lecture notes`
+* Statistical Factor Analysis
+	* Secion 9.5, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
 
 
-# 6 Reinforcement Learning
-
-## Overview
-* [Introduction to Reinforcement Learning with David Silver](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver) `lecture notes`
-* [Deep Reinforcement Learning: An Overview](https://arxiv.org/pdf/1701.07274.pdf) 
-* [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html) `other`
-
-## Model-Free Methods
-
-### Value-Based Methods
-#### Temporal Difference Methods
-* Section 6.1, [Reinforcement Learning: An Introduction, 2nd](https://mitpress.mit.edu/books/reinforcement-learning-second-edition) 
-
-#### SARSA
-* Section 6.4, [Reinforcement Learning: An Introduction, 2nd](https://mitpress.mit.edu/books/reinforcement-learning-second-edition) 
-
-#### Q-Learning
-* Section 6.5, [Reinforcement Learning: An Introduction, 2nd](https://mitpress.mit.edu/books/reinforcement-learning-second-edition) 
-
-#### Deep Q Network
-* [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602.pdf) 
-* [Dueling Network Architectures for Deep Reinforcement Learning](https://arxiv.org/pdf/1511.06581.pdf) 
-* [Deep Reinforcement Learning with Double Q-learning](https://arxiv.org/pdf/1509.06461.pdf) 
-
-### Policy-Based Methods
-#### REINFORCE
-* Section 13.3, [Reinforcement Learning: An Introduction, 2nd](https://mitpress.mit.edu/books/reinforcement-learning-second-edition) 
-
-#### Actor-Critic Methods
-* Section 13.5, [Reinforcement Learning: An Introduction, 2nd](https://mitpress.mit.edu/books/reinforcement-learning-second-edition) 
-
-## Model-Based Methids
-* [CS294-112 Lecture 9: Model-Based Reinforcement Learning](http://rail.eecs.berkeley.edu/deeprlcourse-fa17/f17docs/lecture_9_model_based_rl.pdf) `lecture notes`
-
-
-# 7 Deep Learning
-
+### 6 Deep Learning
 ## Overview
 * [Deep Learning](https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf) 
 * [Deep Learning](https://www.deeplearningbook.org/) `book`
@@ -344,7 +271,8 @@
 * [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf) 
 * [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/pdf/1909.11942.pdf) 
 
-# 8 Data Preparation
+
+### 7 Data Preparation
 
 ## Feature Engineering
 
@@ -380,7 +308,7 @@ Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16
 * Section 6.3, [Practical Lessons from Predicting Clicks on Ads at Facebook](https://research.fb.com/wp-content/uploads/2016/11/practical-lessons-from-predicting-clicks-on-ads-at-facebook.pdf) 
 
 
-# 9 Model Interpretation
+### 8 Model Interpretation
 
 ## Global Model-Agnostic Methods
 
@@ -414,7 +342,7 @@ Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16
 * [Interpretability Methods in Machine Learning: A Brief Survey](https://www.twosigma.com/articles/interpretability-methods-in-machine-learning-a-brief-survey/)
 
 
-# 10 Model Evaluation
+### 9 Model Evaluation
 
 ## Bias-Variance Tradeoff
 * [Bias-Variance Tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) 
@@ -464,7 +392,8 @@ Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16
 #### Bayes Information Criterion
 * Section 7.7, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 
-# 11 Causal Inference
+
+# 10 Causal Inference
 
 
 ## Overview
@@ -606,21 +535,7 @@ Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16
 * [Uncovering the Path to Purchase Using Topic Models](https://journals.sagepub.com/doi/abs/10.1177/0022243720954376) 
 
 
-### Churn Prediction
-* [A Comparison of Machine Learning Techniques for Customer Churn Prediction](https://www.acadpubl.eu/jsi/2018-119-10/articles/10b/2.pdf) 
-* [Customer Attrition Analysis for Financial Services Using Proportional Hazard Models](https://www.sciencedirect.com/science/article/pii/S0377221703000699?casa_token=cRIe3c9zSyMAAAAA:lSWvbBABJVJUYeMJk46W9URXfoYaWsc4uajNxQJM9pSGxT7Tek1TjDTFAIXcVvGZG43o82UnSWc) 
-* [Customer Churn Prediction in Telecom Using Machine Learning in Big Data Platform](https://link.springer.com/article/10.1186/s40537-019-0191-6) 
-* [Customer Churn Prediction Using Improved Balanced Random Forests](https://www.sciencedirect.com/science/article/pii/S0957417408004326?casa_token=RZ4Wtn8dyHcAAAAA:KXvbYOoPP8zGdQfgGPrtAoBlye3bbH0-9Dtkk9wqKYut2hivlGlb5Kg49_3VI5fTxpLCL9jbNB8) 
-* [Dynamic Churn Prediction Framework with More Effective Use of Rare Event Data: The Case of Private Banking](https://www.sciencedirect.com/science/article/pii/S0957417414003595?casa_token=46wsLx6iXtkAAAAA:fjXJWiW0FCbFk1DyXV6s7LuYmu1jjU3xHq47z2CMnQvIOfsOyOyse3aZ8uBmkjeqOI2hWrikCq4) 
-* [Why You Should Stop Predicting Customer Churn and Start Using Uplift Models](https://www.sciencedirect.com/science/article/pii/S0020025519312022) 
-
-### Lifetime Value
-* [A Deep Probabilistic Model for Customer Lifetime Value Prediction](https://arxiv.org/pdf/1912.07753.pdf) 
-* [An Engagement-Based Customer Lifetime Value System for E-commerce](https://www.kdd.org/kdd2016/papers/files/adf0755-vanderveldAbr.pdf) 
-* [Customer Lifetime Value Prediction Using Embeddings](https://arxiv.org/pdf/1703.02596.pdf) 
-
-
-# 14 Optimization Methods for Machine Learning
+# 14 Optimization Methods
 
 ## Constrained Optimization
 * [Lagrange Multiplier](https://en.wikipedia.org/wiki/Lagrange_multiplier) 
@@ -692,24 +607,3 @@ Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16
 * [Dynamic Programming](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap6.pdf) 
 * [More Dynamic Programming!](https://docs.google.com/presentation/d/1IbGRskTKARU6eZOvZ-jHq8S4tncMMc0ZZmx75kI9gT4/edit#slide=id.g8d231503f1_0_118) `lecture notes`
 * [Even More Dynamic Programming!](https://docs.google.com/presentation/d/1c5wf2xvOqOmXORO0lAf11JAPUyzVap7gOKkD8V3UTU8/edit#slide=id.g8d231503f1_0_118) `lecture notes`
-
-# 16 Python Programming
-
-## Built-In Data Structures
-* [Data Structures](https://docs.python.org/3/tutorial/datastructures.html#) `documentation`
-
-## List Comprehensions
-* [List Comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) `documentation`
-
-## Generators
-* [Python Generators](https://www.programiz.com/python-programming/generator) `blog`
-
-## Passing by Object Reference
-* [Is Python Pass-by-Reference or Pass-by-Value?](https://robertheaton.com/2014/02/09/pythons-pass-by-object-reference-as-explained-by-philip-k-dick/) 
-
-## Decorators
-* [Primer on Python Decorators](https://realpython.com/primer-on-python-decorators/) 
-
-## Object-Oriented Programming
-* [Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming/) `blog`
-
