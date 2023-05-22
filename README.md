@@ -1,18 +1,19 @@
 # Data Science and Machine Learning Reading List: From 101 to Advanced Topics
 
 ### Table of Contents
-*[Probability and Statistics](#Probability-and-Statistics)
-*[Linear Regression](#linear-regression)
-4. Supervised Learning
-5. Unsupervised Learning
-6. Deep Learning
-7. Data Preparation
-8. Model Evaluation
-9. Model Interpretation
-10. Time Series Analysis
-11. Causal Inference
-12. Recommendation Systems
-13. Data Structures and Algorithms
+* Part I: Theory and Methods
+* [Probability and Statistics](#Probability-and-Statistics)
+* [Time Series Analysis](#Time-Series-Analysis)
+* [Linear Regression](#Linear-Regression)
+* [Supervised Learning](#Supervised-Learning)
+* [Unsupervised Learning](#Unsupervised-Learning)
+* [Optimization Methods](#Optimization-Methods)
+* [Data Preparation](#Data-Preparation)
+* [Model Evaluation](#Model-Evaluation)
+* [Causal Inference](#Causal-Inference)
+* [Deep Learning](#Deep Learning)
+* [Recommendation Systems](Recommendation Systems)
+* [Data Structures and Algorithms](Data Structures and Algorithms)
 
 ### Preface
 
@@ -63,7 +64,7 @@
 	* [Coefficient of Determination](https://en.wikipedia.org/wiki/Coefficient_of_determination) 
 
 * Violations of Linear Regression Assumptions and Remedies
-	* [Violations of Classical Linear Regression Assumptions](https://www.bauer.uh.edu/jhess/documents/ViolationsofClassicalLinearRegressionAssumptions.doc) `lecture notes`
+	* [Violations of Classical Linear Regression Assumptions](https://www.bauer.uh.edu/jhess/documents/ViolationsofClassicalLinearRegressionAssumptions.doc) 
 	* [Generalized Least Squares](https://en.wikipedia.org/wiki/Generalized_least_squares) 
 	* [Newey–West Estimator](https://en.wikipedia.org/wiki/Newey%E2%80%93West_estimator) 
 	* [Cochrane–Orcutt Estimation](https://en.wikipedia.org/wiki/Cochrane%E2%80%93Orcutt_estimation) 
@@ -137,7 +138,7 @@
 ### Cointegration and Error-Correction Model
 * [Cointegration](https://en.wikipedia.org/wiki/Cointegration) 
 * [Error Correction Model](https://en.wikipedia.org/wiki/Error_correction_model) 
-* [Cointegration: The Engle and Granger Approach](https://warwick.ac.uk/fac/soc/economics/staff/gboero/personal/hand2_cointeg.pdf) `lecture notes`
+* [Cointegration: The Engle and Granger Approach](https://warwick.ac.uk/fac/soc/economics/staff/gboero/personal/hand2_cointeg.pdf) 
 
 ## State-Space Model, Structural Time Series, and Kalman Filter
 * Chapter 5, [A Very Short Course on Time Series Analysis](https://bookdown.org/rdpeng/timeseriesbook/state-space-models-and-the-kalman-filter.html) 
@@ -152,7 +153,7 @@
 * Naive Bayes Classifier
 	* Section 6.6.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 	* Relationship to Logistic Regression
-		* Section 4, [Generative and Discriminative Classifiers: Naive Bayes and Logistic Regression](https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf) `lecture notes`
+		* Section 4, [Generative and Discriminative Classifiers: Naive Bayes and Logistic Regression](https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf) 
 
 * Linear Discriminant Analysis
 	* Secion 4.4, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
@@ -167,7 +168,7 @@
 * Random Forests
 	* Section 15.1-15.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 * Boosting
-	* [Boosting](https://web.stanford.edu/~hastie/TALKS/boost.pdf)  `lecture notes`
+	* [Boosting](https://web.stanford.edu/~hastie/TALKS/boost.pdf)  
 	* [Introduction to Boosted Trees](https://xgboost.readthedocs.io/en/latest/tutorials/model.html) `documentation`
 	* [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf) 
 	* [LightGBM: A Highly Efficient Gradient Boosting Decision Tree](http://www.audentia-gestion.fr/MICROSOFT/lightgbm.pdf) 
@@ -189,7 +190,7 @@
 	* [A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise](https://www.aaai.org/Papers/KDD/1996/KDD96-037.pdf) 
 	* [OPTICS: Ordering Points to Identify the Clustering Structure](https://www.dbs.ifi.lmu.de/Publikationen/Papers/OPTICS.pdf) 
 * Principal Component Analysis
-	* [Principal Component Analysis](https://www.comp.nus.edu.sg/~cs5240/lecture/pca.pdf) `lecture notes`
+	* [Principal Component Analysis](https://www.comp.nus.edu.sg/~cs5240/lecture/pca.pdf) 
 * Statistical Factor Analysis
 	* Secion 9.5, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
 
@@ -201,11 +202,11 @@
 
 ## Building Blocks and Feedforward Neural Networks
 ### Backpropagation
-* [CS231n Lecture 4: Backpropagation and Neural Networks](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture4.pdf) `lecture notes`
-* [Backpropagation, Intuitions](https://cs231n.github.io/optimization-2/) `lecture notes`
+* [CS231n Lecture 4: Backpropagation and Neural Networks](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture4.pdf) 
+* [Backpropagation, Intuitions](https://cs231n.github.io/optimization-2/) 
 
 ### Vanishing and Exploding Gradient 
-* [CSC321 Lecture 15: Exploding and Vanishing Gradients](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/readings/L15%20Exploding%20and%20Vanishing%20Gradients.pdf) `lecture notes`
+* [CSC321 Lecture 15: Exploding and Vanishing Gradients](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/readings/L15%20Exploding%20and%20Vanishing%20Gradients.pdf) 
 * [On the Difficulty of Training Recurrent Neural Networks](https://arxiv.org/pdf/1211.5063.pdf) 
 
 ### Weight Initialization
@@ -229,22 +230,22 @@
 * Section 5-7, [A Selective Overview of Deep Learning](https://arxiv.org/pdf/1904.05526.pdf)  
 
 ## Convolutional Neural Networks
-* [CS231n Lecture 5: Convolutional Neural Networks](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture5.pdf) `lecture notes`
-* [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/) `lecture notes`
+* [CS231n Lecture 5: Convolutional Neural Networks](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture5.pdf) 
+* [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/) 
 
 ## Recurrent Neural Networks
-* [CS231n Lecture 10: Recurrent Neural Networks](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture10.pdf) `lecture notes`
-* [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) `blog`
+* [CS231n Lecture 10: Recurrent Neural Networks](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture10.pdf) 
+* [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) 
 * [Sequence to Sequence Learning with Neural Networks](https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf) 
 
 ## Generative Learning
-* [CS231n Lecture 13: Generative Models](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture13.pdf) `lecture notes`
+* [CS231n Lecture 13: Generative Models](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture13.pdf) 
 * [Generative Adversarial Networks](https://arxiv.org/pdf/1406.2661.pdf) 
 
 
 
 ### Deep Learning for Computer Vision
-* [CS231n Lecture 9: CNN Architectures](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture9.pdf) `lecture notes`
+* [CS231n Lecture 9: CNN Architectures](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture9.pdf) 
 * [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet) 
 * LeNet-5: [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf) 
 * AlexNet: [ImageNet Classification with Deep Convolutional Neural Networks](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) 
@@ -259,30 +260,30 @@
 ### Deep Learning for Natural Language Processing
 
 #### Word2Vec
-* [The Illustrated Word2Vec](http://jalammar.github.io/illustrated-word2vec/) `blog`
-* [Word2Vec Tutorial - The Skip-Gram Model](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/) `blog`
-* [Word2Vec Tutorial Part 2 - Negative Sampling](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/) `blog`
+* [The Illustrated Word2Vec](http://jalammar.github.io/illustrated-word2vec/) 
+* [Word2Vec Tutorial - The Skip-Gram Model](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/) 
+* [Word2Vec Tutorial Part 2 - Negative Sampling](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/) 
 * [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/) `other`
 
 #### Attention and Transformer
 * [Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf) 
-* [Visualizing a Neural Machine Translation Model](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/) `blog`
-* [Transformer: A Novel Neural Network Architecture for Language Understanding](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html) `blog`
-* [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) `blog`
+* [Visualizing a Neural Machine Translation Model](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/) 
+* [Transformer: A Novel Neural Network Architecture for Language Understanding](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html) 
+* [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) 
 
 #### ELMo
 * ELMo: [Deep Contextualized Word Representations](https://arxiv.org/pdf/1802.05365.pdf) 
-* [Deep Contextualized Word Representations with ELMo](https://www.mihaileric.com/posts/deep-contextualized-word-representations-elmo/) `blog`
+* [Deep Contextualized Word Representations with ELMo](https://www.mihaileric.com/posts/deep-contextualized-word-representations-elmo/) 
 
 #### GPT Series
 * GPT2: [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) 
-* [The Illustrated GPT-2](http://jalammar.github.io/illustrated-gpt2/) `blog`
+* [The Illustrated GPT-2](http://jalammar.github.io/illustrated-gpt2/) 
 * GPT3: [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) 
 
 #### BERT and Its Variants
 * [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf) 
-* [The Illustrated BERT, ELMo, and Co.](http://jalammar.github.io/illustrated-bert/) `blog`
-* [A Visual Guide to Using BERT for the First Time](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) `blog`
+* [The Illustrated BERT, ELMo, and Co.](http://jalammar.github.io/illustrated-bert/) 
+* [A Visual Guide to Using BERT for the First Time](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) 
 * [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf) 
 * [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf) 
 * [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/pdf/1909.11942.pdf) 
@@ -377,7 +378,7 @@ Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16
 * [Randomized Parameter Search](https://scikit-learn.org/stable/modules/grid_search.html#randomized-parameter-search) `documentation`
 
 ### Bayesian Optimization
-* [CSC321 lecture 21: Bayesian Hyperparameter Optimization](https://netman.aiops.org/~peidan/ANM2019/2.MachineLearningBasics/LectureCoverage/27.BayesianOptimization.pdf) `lecture notes`
+* [CSC321 lecture 21: Bayesian Hyperparameter Optimization](https://netman.aiops.org/~peidan/ANM2019/2.MachineLearningBasics/LectureCoverage/27.BayesianOptimization.pdf) 
 * [Practical Bayesian Optimization of Machine Learning Algorithms](https://proceedings.neurips.cc/paper/2012/file/05311655a15b75fab86956663e1819cd-Paper.pdf) 
 
 ## Model Evaluation Metrics
@@ -393,7 +394,7 @@ Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16
 * [Mean Absolute Percentage Error](https://en.wikipedia.org/wiki/Mean_absolute_percentage_error) 
 
 ### Ranking Metrics
-* [Recall and Precision at $K$ for Recommender Systems](https://medium.com/@m_n_malaeb/recall-and-precision-at-k-for-recommender-systems-618483226c54) `blog`
+* [Recall and Precision at $K$ for Recommender Systems](https://medium.com/@m_n_malaeb/recall-and-precision-at-k-for-recommender-systems-618483226c54) 
 * [Normalized Discounted Cumulative Gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain#Normalized_DCG) 
 * [Ranking Measures and Loss Functions in Learning to Rank](https://papers.nips.cc/paper/2009/file/2f55707d4193dc27118a0f19a1985716-Paper.pdf) 
 
@@ -426,11 +427,11 @@ Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16
 
 
 ## Difference in Differences
-* [Difference-in-Differences Estimation](https://personal.utdallas.edu/~d.sul/Econo2/lect_10_diffindiffs.pdf) `lecture notes`
+* [Difference-in-Differences Estimation](https://personal.utdallas.edu/~d.sul/Econo2/lect_10_diffindiffs.pdf) 
 
 
 ## Uplift Trees
-* [Modeling Uplift Directly: Uplift Decision Tree with KL Divergence and Euclidean Distance as Splitting Criteria](https://tech.wayfair.com/data-science/2019/10/modeling-uplift-directly-uplift-decision-tree-with-kl-divergence-and-euclidean-distance-as-splitting-criteria/) `blog`
+* [Modeling Uplift Directly: Uplift Decision Tree with KL Divergence and Euclidean Distance as Splitting Criteria](https://tech.wayfair.com/data-science/2019/10/modeling-uplift-directly-uplift-decision-tree-with-kl-divergence-and-euclidean-distance-as-splitting-criteria/) 
 * [Real-World Uplift Modelling with Significance-Based Uplift Trees](https://stochasticsolutions.com/pdf/sig-based-up-trees.pdf) 
 * [Recursive Partitioning for Heterogeneous Causal Effects](https://www.pnas.org/content/113/27/7353) 
 * [Uplift Modeling with Multiple Treatments and General Response Types](https://arxiv.org/pdf/1705.08492.pdf) 
@@ -452,32 +453,14 @@ Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16
 * [Online Experimentation at Microsoft](https://ai.stanford.edu/~ronnyk/ExPThinkWeek2009Public.pdf)
 * [Overlapping Experiment Infrastructure: More, Better, Faster Experimentation](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36500.pdf) 
 * [The Online Display Ad Effectiveness Funnel & Carryover: Lessons from 432 Field Experiments](https://poseidon01.ssrn.com/delivery.php?ID=780025027093084078006098081104117031007048068055025069102114082123091069028115004024007063049014102035101119123093091021030066000033062052083122074127067004086065090005062075024076120065104092095069115119026114011001072031111124008007103123098066117098&EXT=pdf&INDEX=TRUE) 
-* [Twitter Experimentation: Technical Overview](https://blog.twitter.com/engineering/en_us/a/2015/twitter-experimentation-technical-overview.html) `blog`
-* [Under the Hood of Uber’s Experimentation Platform](https://eng.uber.com/xp/) `blog`
-* [Using Causal Inference to Improve the Uber User Experience](https://eng.uber.com/causal-inference-at-uber/) `blog`
+* [Twitter Experimentation: Technical Overview](https://blog.twitter.com/engineering/en_us/a/2015/twitter-experimentation-technical-overview.html) 
+* [Under the Hood of Uber’s Experimentation Platform](https://eng.uber.com/xp/) 
+* [Using Causal Inference to Improve the Uber User Experience](https://eng.uber.com/causal-inference-at-uber/) 
 
 
-# 12 Information Technology
 
-## Recommender System
-### Content-Based Filtering 
-* [Content-based Filtering](https://developers.google.com/machine-learning/recommendation/content-based/basics) `other`
-
-### Collaborative Filtering
-#### Neighborhood Methods
-* [Amazon.com recommendations: Item-to-item collaborative filtering](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11673444) 
-* [Collaborative Filtering](https://developers.google.com/machine-learning/recommendation/collaborative/basics) `other`
-
-#### Matrix Factorization
-* [Matrix Factorization for Recommender Systems](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf) 
-* [Matrix Factorization](https://developers.google.com/machine-learning/recommendation/collaborative/matrix) `other`
-
-### Factorization Machines
-* [Factorization Machines](https://ieeexplore.ieee.org/document/5694074) 
-* [Field-aware Factorization Machines for CTR Prediction](https://www.csie.ntu.edu.tw/~cjlin/papers/ffm.pdf) 
-
-### Neural Recommender Systems
-* [A Large-Scale Deep Architecture for Personalized Grocery Basket Recommendations](https://arxiv.org/pdf/1910.12757.pdf) 
+### Recommendation Systems
+* [A Large-Scale Deep Architecture for Personalized Grocery Basket Recommendations](https://arxiv.org/pdf/1910.12757.pdf 
 * [Behavior Sequence Transformer for E-commerce Recommendation in Alibaba](https://arxiv.org/pdf/1905.06874.pdf) 
 * [Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba](https://arxiv.org/pdf/1803.02349.pdf) 
 * [COLD: Towards the Next Generation of Pre-Ranking System](https://arxiv.org/pdf/2007.16122.pdf)  
@@ -490,26 +473,21 @@ Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16
 * [Search-based User Interest Modeling with Lifelong Sequential Behavior Data for Click-Through Rate Prediction](https://arxiv.org/pdf/2006.05639.pdf) 
 * [The Architectural Implications of Facebook's DNN-based Personalized Recommendation](https://arxiv.org/pdf/1906.03109.pdf) 
 * [Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf) 
-
-### More Industrial Examples 
-* [Powered by AI: Instagram’s Explore Recommender System](https://ai.facebook.com/blog/powered-by-ai-instagrams-explore-recommender-system/) `blog`
+* [Powered by AI: Instagram’s Explore Recommender System](https://ai.facebook.com/blog/powered-by-ai-instagrams-explore-recommender-system/) 
 * [Practical Lessons from Predicting Clicks on Ads at Facebook](https://research.fb.com/wp-content/uploads/2016/11/practical-lessons-from-predicting-clicks-on-ads-at-facebook.pdf) 
 * [Talent Search and Recommendation Systems at LinkedIn](https://arxiv.org/pdf/1809.06481.pdf) 
 * [The Netflix Recommender System: Algorithms, Business Value, and Innovation](https://dl.acm.org/doi/pdf/10.1145/2843948) 
 * [Two Decades of Recommender Systems at Amazon.com](https://assets.amazon.science/76/9e/7eac89c14a838746e91dde0a5e9f/two-decades-of-recommender-systems-at-amazon.pdf) 
-* [Using Deep Learning at Scale in Twitter’s Timelines](https://blog.twitter.com/engineering/en_us/topics/insights/2017/using-deep-learning-at-scale-in-twitters-timelines.html) `blog`
-
-
-## Search Ranking
+* [Using Deep Learning at Scale in Twitter’s Timelines](https://blog.twitter.com/engineering/en_us/topics/insights/2017/using-deep-learning-at-scale-in-twitters-timelines.html) 
 * [Amazon Search: The Joy of Ranking Products](https://assets.amazon.science/89/cd/34289f1f4d25b5857d776bdf04d5/amazon-search-the-joy-of-ranking-products.pdf) 
 * [Applying Deep Learning To Airbnb Search](https://arxiv.org/pdf/1810.09591.pdf) 
-* [Bringing Personalized Search to Etsy](https://codeascraft.com/2020/10/29/bringing-personalized-search-to-etsy/) `blog`
+* [Bringing Personalized Search to Etsy](https://codeascraft.com/2020/10/29/bringing-personalized-search-to-etsy/) 
 * [Embedding-based Retrieval in Facebook Search](https://arxiv.org/pdf/2006.11632.pdf) 
-* [Food Discovery with Uber Eats: Building a Query Understanding Engine](https://eng.uber.com/uber-eats-query-understanding/) `blog`
+* [Food Discovery with Uber Eats: Building a Query Understanding Engine](https://eng.uber.com/uber-eats-query-understanding/) 
 * [Improving Deep Learning for Airbnb Search](https://arxiv.org/pdf/2002.05515.pdf)) 
 * [In-session Personalization for Talent Search](https://arxiv.org/pdf/1809.06488.pdf) 
 * [Learning to Rank Personalized Search Results in Professional Networks](https://arxiv.org/pdf/1605.04624.pdf) 
-* [Machine Learning-Powered Search Ranking of Airbnb Experiences](https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789) `blog`
+* [Machine Learning-Powered Search Ranking of Airbnb Experiences](https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789) 
 * [MOBIUS: Towards the Next Generation of Query-Ad Matching in Baidu’s Sponsored Search](http://research.baidu.com/Public/uploads/5d12eca098d40.pdf) 
 * [Ranking Relevance in Yahoo Search](https://www.kdd.org/kdd2016/papers/files/adf0361-yinA.pdf) 
 * [Real-time Personalization using Embeddings for Search Ranking at Airbnb](https://dl.acm.org/doi/pdf/10.1145/3219819.3219885) 
@@ -519,107 +497,58 @@ Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16
 * [Towards Personalized and Semantic Retrieval for E-commerce Search via Embedding Learning](https://arxiv.org/pdf/2006.02282.pdf) 
 
 
-## Ads Bidding
-* [Ads Allocation in Feed via Constrained Optimization](https://dl.acm.org/doi/pdf/10.1145/3394486.3403391) 
-* [Bid Optimizing and Inventory Scoring in Targeted Online Advertising](https://dl.acm.org/doi/abs/10.1145/2339530.2339655?casa_token=anTqe_x1G6QAAAAA:-wbGohnu46dO9P8Tc1VaBHrNPd0zCJo87Hnoq4kR81-DpOli_R_qEtcgGlbUw2VRgxOB-PPYIFyjWQ) 
-* [How We Built A Context-Specific Bidding System for Etsy Ads](https://codeascraft.com/2021/03/23/how-we-built-a-context-specific-bidding-system-for-etsy-ads/) `blog`
+### Optimization Methods
+* Constrained Optimization
+	* [Lagrange Multiplier](https://en.wikipedia.org/wiki/Lagrange_multiplier) 
+	* [Karush–Kuhn–Tucker Conditions](https://en.wikipedia.org/wiki/Karush%E2%80%93Kuhn%E2%80%93Tucker_conditions) 
+* Gradient Descent
+	* [An Overview of Gradient Descent Optimization Algorithms](https://arxiv.org/pdf/1609.04747.pdf) 
+* Root Finding
+	* [Bisection Method](https://en.wikipedia.org/wiki/Bisection_method) 
+	* [Secant Method](https://en.wikipedia.org/wiki/Secant_method) 
+	* [Newton's Method](https://en.wikipedia.org/wiki/Newton%27s_method) 
 
 
-## Supply and Demand Forecasting
-* [Bayesian Intermittent Demand Forecasting for Large Inventories](https://papers.nips.cc/paper/2016/file/03255088ed63354a54e0e5ed957e9008-Paper.pdf) 
-* [Forecasting at Uber: An Introduction](https://eng.uber.com/forecasting-introduction/) `blog`
-* [Managing Supply and Demand Balance Through Machine Learning](https://doordash.engineering/2021/06/29/managing-supply-and-demand-balance-through-machine-learning/) `blog`
-* [Probabilistic Demand Forecasting at Scale](http://www.vldb.org/pvldb/vol10/p1694-schelter.pdf)
+### Data Structures and Algorithms
+* Asymptotics Analysis
+	* [Solving Recurrences](https://docs.google.com/presentation/d/1L0cq2b7yb_n1bwyI2_BWHugGfZABxIu2r9ZXvTo4zuA/edit#slide=id.g820f38cd3e_0_0) 
+	* [Know Thy Complexities!](https://www.bigocheatsheet.com/) 
+* Array and List
+	* [Difference between Linked List and Arrays](https://www.faceprep.in/data-structures/linked-list-vs-array/) 
+* Stacks and Queues
+	* [Stack](https://en.wikipedia.org/wiki/Stack_%28abstract_data_type%29) 
+	* [Queue](https://en.wikipedia.org/wiki/Queue_%28abstract_data_type%29) 
+* Hash Tables
+	* [Hashing!](https://docs.google.com/presentation/d/1GugHPgUl282bwviOm-K9VHdxSVKlYvi0qXFXZSCcfQY/edit#slide=id.g8b5bddc967_0_114) 
+* Heaps and Priority Queues
+	* [Heap](https://en.wikipedia.org/wiki/Heap_%28data_structure%29) 
+	* [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue) 
+* Trees
+	* [Binary Search Trees & Red-Black Trees!](https://docs.google.com/presentation/d/14760WScwlpPwWW_Wi-aEWV5njmiVjliLvWLrdSzmGzQ/edit#slide=id.g8b93bcfe26_0_124) 
+	* [Tree Traversal](https://en.wikipedia.org/wiki/Tree_traversal) 
+	* [Trie](https://en.wikipedia.org/wiki/Trie) 
+* Graph
+	* [Graphs, BFS & DFS](https://docs.google.com/presentation/d/1c5wf2xvOqOmXORO0lAf11JAPUyzVap7gOKkD8V3UTU8/edit#slide=id.g8d231503f1_0_118) 
+	* [Topological Sort](https://en.wikipedia.org/wiki/Topological_sorting) 
+* Binary search
+	* [Binary Search Algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm) 
+	* [二分查找、二分边界查找算法的模板代码总结](https://segmentfault.com/a/1190000016825704) 
+* Sorting
+	* [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort) 
+	* [Quick Sort](https://en.wikipedia.org/wiki/Quicksort) 
+	* [Heap Sort](https://en.wikipedia.org/wiki/Heapsort) 
+	* [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort) 
+	* [Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort) 
+	* Just for fun. The most elegant but useless sorting algorithm: [Stooge Sort](https://en.wikipedia.org/wiki/Stooge_sort) 
+* Backtracking
+	* [In-Depth Backtracking with LeetCode Problems - Part 1](https://medium.com/algorithms-and-leetcode/backtracking-e001561b9f28) 
+	* [In-Depth Backtracking with LeetCode Problems - Part 2](https://medium.com/algorithms-and-leetcode/backtracking-with-leetcode-problems-part-2-705c9cc70e52) 
+	* [In-Depth Backtracking with LeetCode Problems - Part 3](https://medium.com/algorithms-and-leetcode/in-depth-backtracking-with-leetcode-problems-part-3-b225f19e0d51) 
+* Shortest path
+	* [Dijkstra’s algorithm](https://docs.google.com/presentation/d/1WTk02PXjmyHVjpu9SvDywIp5hAejZbAt4jrUtA8V6AE/edit#slide=id.g8dcdfac922_0_118) 
+	* [Bellman-Ford & Floyd-Warshall](https://docs.google.com/presentation/d/1j5_MKfTAhDwkk_XoA6cnVPOmIOQGrUnPFHbvYcnWFSs/edit#slide=id.g8ccafe7f33_0_118) 
 
-
-## Marketplace Pricing and Matching
-* [Dynamic Pricing and Matching in Ride-Hailing Platforms](https://poseidon01.ssrn.com/delivery.php?ID=713094097085071091029127000069078069000039039014031001095005103028030082091006095071118026012125037127020069115070101124006101023054032039051015086126101078099071026064046062001103094092006127098093097120100081000087068122092095097080102028127105082082&EXT=pdf&INDEX=TRUE) 
-* [Driver Surge Pricing](https://arxiv.org/pdf/1905.07544.pdf) 
-* [Dynamic Pricing and Matching in Ride-Sharing](https://www.naefrontiers.org/184199/Abstract) `other`
-* [Predicting Real-Time Surge Pricing of Ride-Sourcing Companies](https://www.sciencedirect.com/science/article/abs/pii/S0968090X19301627) 
-
-
-## Customer Relation Management
-* [Customer Acquisition via Display Advertising Using Multi-Armed Bandit Experiments](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1602&context=statistics_papers) 
-* [A Hidden Markov Model of Customer Relationship Dynamics](https://pubsonline.informs.org/doi/abs/10.1287/mksc.1070.0294) 
-* [Customer Purchase Intent Prediction Under Online Multi-Channel Promotion: A Feature-Combined Deep Learning Framework](https://ieeexplore.ieee.org/abstract/document/8795449) 
-* [Deep Learning for Understanding Consumer Histories](https://engineering.zalando.com/posts/2016/10/deep-learning-for-understanding-consumer-histories.html) `blog`
-* [Large Scale Cross Category Analysis of Consumer Review Content on Sales Conversion Leveraging Deep Learning](https://journals.sagepub.com/doi/abs/10.1177/0022243719866690?journalCode=mrja) 
-* [Predicting Online Shopping Behaviour from Clickstream Data Using Deep Learning](https://www.sciencedirect.com/science/article/pii/S0957417420301676?casa_token=lU1gjhvQdPwAAAAA:CFOx2EPduvRpzem39yFhI039nUpDIxPgUvv-AtV1KlgazMO7QmPQBBiZ-H736Pjqupd8iPr9o9g) 
-* [Sentence-Based Text Analysis for Customer Reviews](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2016.0993?journalCode=mksc) 
-* [Targeting Prospective Customers: Robustness of Machine-Learning Methods to Typical Data Challenges](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2019.3308?casa_token=6kX8O8O7Qj4AAAAA:q_pI9SZZjo1pCMddcNGhyIXjqsd7mhgEnf0eKQ1N_KJ55RykgJPxQC7wvAk5Pgp4T72YNAmKOFfa) 
-* [Uncovering the Path to Purchase Using Topic Models](https://journals.sagepub.com/doi/abs/10.1177/0022243720954376) 
-
-
-# 14 Optimization Methods
-
-## Constrained Optimization
-* [Lagrange Multiplier](https://en.wikipedia.org/wiki/Lagrange_multiplier) 
-* [Karush–Kuhn–Tucker Conditions](https://en.wikipedia.org/wiki/Karush%E2%80%93Kuhn%E2%80%93Tucker_conditions) 
-
-## Curve Fitting
-* [Non-Linear Least Squares](https://en.wikipedia.org/wiki/Non-linear_least_squares) 
-
-## Gradient Descent
-* [An Overview of Gradient Descent Optimization Algorithms](https://arxiv.org/pdf/1609.04747.pdf) 
-
-## Root Finding
-* [Bisection Method](https://en.wikipedia.org/wiki/Bisection_method) 
-* [Secant Method](https://en.wikipedia.org/wiki/Secant_method) 
-* [Newton's Method](https://en.wikipedia.org/wiki/Newton%27s_method) 
-
-
-# 15 Data Structures and Algorithms
-
-## Asymptotics Analysis
-* [Solving Recurrences](https://docs.google.com/presentation/d/1L0cq2b7yb_n1bwyI2_BWHugGfZABxIu2r9ZXvTo4zuA/edit#slide=id.g820f38cd3e_0_0) `lecture notes`
-* [Know Thy Complexities!](https://www.bigocheatsheet.com/) `blog`
-
-## Array and List
-* [Difference between Linked List and Arrays](https://www.faceprep.in/data-structures/linked-list-vs-array/) `blog`
-
-## Stacks and Queues
-* [Stack](https://en.wikipedia.org/wiki/Stack_%28abstract_data_type%29) 
-* [Queue](https://en.wikipedia.org/wiki/Queue_%28abstract_data_type%29) 
-
-## Hash Tables
-* [Hashing!](https://docs.google.com/presentation/d/1GugHPgUl282bwviOm-K9VHdxSVKlYvi0qXFXZSCcfQY/edit#slide=id.g8b5bddc967_0_114) `lecture notes`
-
-## Heaps and Priority Queues
-* [Heap](https://en.wikipedia.org/wiki/Heap_%28data_structure%29) 
-* [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue) 
-
-## Trees
-* [Binary Search Trees & Red-Black Trees!](https://docs.google.com/presentation/d/14760WScwlpPwWW_Wi-aEWV5njmiVjliLvWLrdSzmGzQ/edit#slide=id.g8b93bcfe26_0_124) `lecture notes`
-* [Tree Traversal](https://en.wikipedia.org/wiki/Tree_traversal) 
-* [Trie](https://en.wikipedia.org/wiki/Trie) 
-
-## Graphs
-* [Graphs, BFS & DFS](https://docs.google.com/presentation/d/1c5wf2xvOqOmXORO0lAf11JAPUyzVap7gOKkD8V3UTU8/edit#slide=id.g8d231503f1_0_118) `lecture notes`
-* [Topological Sort](https://en.wikipedia.org/wiki/Topological_sorting) 
-
-## Binary Search
-* [Binary Search Algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm) 
-* [二分查找、二分边界查找算法的模板代码总结](https://segmentfault.com/a/1190000016825704) `blog`
-
-### Sorting
-* [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort) 
-* [Quick Sort](https://en.wikipedia.org/wiki/Quicksort) 
-* [Heap Sort](https://en.wikipedia.org/wiki/Heapsort) 
-* [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort) 
-* [Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort) 
-* Just for fun. The most elegant but useless sorting algorithm: [Stooge Sort](https://en.wikipedia.org/wiki/Stooge_sort) 
-
-## Backtracking
-* [In-Depth Backtracking with LeetCode Problems - Part 1](https://medium.com/algorithms-and-leetcode/backtracking-e001561b9f28) `blog`
-* [In-Depth Backtracking with LeetCode Problems - Part 2](https://medium.com/algorithms-and-leetcode/backtracking-with-leetcode-problems-part-2-705c9cc70e52) `blog`
-* [In-Depth Backtracking with LeetCode Problems - Part 3](https://medium.com/algorithms-and-leetcode/in-depth-backtracking-with-leetcode-problems-part-3-b225f19e0d51) `blog`
-
-## Shortest Path
-* [Dijkstra’s algorithm](https://docs.google.com/presentation/d/1WTk02PXjmyHVjpu9SvDywIp5hAejZbAt4jrUtA8V6AE/edit#slide=id.g8dcdfac922_0_118) `lecture notes`
-* [Bellman-Ford & Floyd-Warshall](https://docs.google.com/presentation/d/1j5_MKfTAhDwkk_XoA6cnVPOmIOQGrUnPFHbvYcnWFSs/edit#slide=id.g8ccafe7f33_0_118) `lecture notes`
-
-## Dynamic Programming
-* [Dynamic Programming](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap6.pdf) 
-* [More Dynamic Programming!](https://docs.google.com/presentation/d/1IbGRskTKARU6eZOvZ-jHq8S4tncMMc0ZZmx75kI9gT4/edit#slide=id.g8d231503f1_0_118) `lecture notes`
-* [Even More Dynamic Programming!](https://docs.google.com/presentation/d/1c5wf2xvOqOmXORO0lAf11JAPUyzVap7gOKkD8V3UTU8/edit#slide=id.g8d231503f1_0_118) `lecture notes`
+* Dynamic programming
+	* [Dynamic Programming](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap6.pdf) 
+	* [More Dynamic Programming!](https://docs.google.com/presentation/d/1IbGRskTKARU6eZOvZ-jHq8S4tncMMc0ZZmx75kI9gT4/edit#slide=id.g8d231503f1_0_118) 
+	* [Even More Dynamic Programming!](https://docs.google.com/presentation/d/1c5wf2xvOqOmXORO0lAf11JAPUyzVap7gOKkD8V3UTU8/edit#slide=id.g8d231503f1_0_118) 
