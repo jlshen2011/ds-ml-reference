@@ -12,9 +12,8 @@
 * [Data Preparation](#Data-Preparation)
 * [Model Evaluation](#Model-Evaluation)
 * [Deep Learning](#Deep-Learning)
-* [Computer Vision](#Computer-Vision)
-* [Natural Language Processing](#Natural-Language-Processing)
-* [Search and Ranking](#Search-and-Ranking)
+* [Deep NLP](#Deep-NLP)
+* [Deep Recommendation](#Deep-Recommendation)
 * [A/B Testing and Causal Inference](#Causal-Inference)
 * [Data Structures and Algorithms](#Data-Structures-and-Algorithms)
 
@@ -170,6 +169,8 @@ This list comprises recommended readings to help you prepare for data science an
 	* [Introduction of Dropout and Ensemble Model in the History of Deep Learning](https://medium.com/unpackai/introduction-of-dropout-and-ensemble-model-in-the-history-of-deep-learning-a4c2a512dcca) 
 * Convolutional neural networks
 	* [CS231n Lecture 5: Convolutional Neural Networks](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture5.pdf) 
+	* [CS231n Lecture 9: CNN Architectures](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture9.pdf) 	
+	* [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/) 
 * Recurrent neural networks
 	* [CS231n Lecture 10: Recurrent Neural Networks](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture10.pdf) 
 	* [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) 
@@ -177,21 +178,7 @@ This list comprises recommended readings to help you prepare for data science an
 	* [CS231n Lecture 13: Generative Models](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture13.pdf) 
 
 
-### Computer Vision
-* [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/) 
-* [CS231n Lecture 9: CNN Architectures](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture9.pdf) 
-* [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet) 
-* LeNet-5: [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf) 
-* AlexNet: [ImageNet Classification with Deep Convolutional Neural Networks](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) 
-* GoogleNet: [Going Deeper with Convolutions](https://arxiv.org/pdf/1409.4842.pdf) 
-* VGGNet: [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf) 
-* ResNet: [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) 
-* Xception: [Xception: Deep Learning with Depthwise Separable Convolutions](https://arxiv.org/pdf/1610.02357.pdf) 
-* ResNeXt: [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf)
-* SENet: [Squeeze-and-Excitation Networks](https://arxiv.org/pdf/1709.01507.pdf) 
-
-
-### Natural Language Processing
+### Deep NLP
 * Word2Vec
 	* [The Illustrated Word2Vec](http://jalammar.github.io/illustrated-word2vec/) 
 	* [Word2Vec Tutorial - The Skip-Gram Model](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)
@@ -218,7 +205,7 @@ This list comprises recommended readings to help you prepare for data science an
 	* [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/pdf/1909.11942.pdf) 
 
 
-### Search and Ranking
+### Deep Recommendation
 * [COLD: Towards the Next Generation of Pre-Ranking System](https://arxiv.org/pdf/2007.16122.pdf)  
 * [Collaborative Multi-modal Deep Learning for the Personalized Product Retrieval in Facebook Marketplace](https://arxiv.org/pdf/1805.12312.pdf) 
 * [Deep & Cross Network for Ad Click Predictions](https://arxiv.org/pdf/1708.05123.pdf) 
