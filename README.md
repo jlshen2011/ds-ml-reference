@@ -109,7 +109,7 @@ This list comprises recommended readings to help you prepare for data science an
 	* [Normalization](https://scikit-learn.org/stable/modules/preprocessing.html#normalization) 
 	* [Scaling Features to a Range](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html) 
 	* [Mapping to a Uniform Distribution](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.QuantileTransformer.html#sklearn.preprocessing.QuantileTransformer) 
-	* [OneHot Encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html#sklearn.preprocessing.OneHotEncoder) 
+	* [OneHot Encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html#sklearn.preprocessing.OneHotEncoder)
 	* [Label Encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html#sklearn.preprocessing.LabelEncoder) 
 	* [Ordinal Encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OrdinalEncoder.html#sklearn.preprocessing.OrdinalEncoder) 
 * Missing data
@@ -118,23 +118,21 @@ This list comprises recommended readings to help you prepare for data science an
 * Imbalanced labels
 	* [SMOTE: Synthetic Minority Over-Sampling Technique](https://arxiv.org/pdf/1106.1813.pdf) 
 	* [Imbalanced-learn: A Python Toolbox to Tackle the Curse of Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16-365/16-365.pdf) 
-* Recalibration
 	* Section 6.3, [Practical Lessons from Predicting Clicks on Ads at Facebook](https://research.fb.com/wp-content/uploads/2016/11/practical-lessons-from-predicting-clicks-on-ads-at-facebook.pdf) 
 
 
 ### Model Evaluation
-* Bias-Variance Tradeoff
+* Bias-variance tradeoff
 	* [Bias-Variance Tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) 
 	* [Overfitting](https://en.wikipedia.org/wiki/Overfitting) 
 * Cross Validation
 	* Section 7.10, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-	* [A Study of CrossValidation and Bootstrap for Accuracy Estimation and Model Selectio](https://ai.stanford.edu/~ronnyk/accEst.pdf) 
 * Hyperparameter optimization
 	* [Exhaustive Grid Search](https://scikit-learn.org/stable/modules/grid_search.html#grid-search) 
 	* [Randomized Parameter Search](https://scikit-learn.org/stable/modules/grid_search.html#randomized-parameter-search) 
 	* [CSC321 lecture 21: Bayesian Hyperparameter Optimization](https://netman.aiops.org/~peidan/ANM2019/2.MachineLearningBasics/LectureCoverage/27.BayesianOptimization.pdf) 
 	* [Practical Bayesian Optimization of Machine Learning Algorithms](https://proceedings.neurips.cc/paper/2012/file/05311655a15b75fab86956663e1819cd-Paper.pdf) 
-* Model Evaluation Metrics
+* Model evaluation metrics
 	* Classification metrics
 		* [Precision and Recall](https://en.wikipedia.org/wiki/Precision_and_recall) 
 		* [F1-Score](https://en.wikipedia.org/wiki/F-score) 
@@ -143,7 +141,6 @@ This list comprises recommended readings to help you prepare for data science an
 	* Regression metrics
 		* [Mean Squared Error](https://en.wikipedia.org/wiki/Mean_squared_error) 
 		* [Mean Absolute Deviation](https://en.wikipedia.org/wiki/Average_absolute_deviation) 
-		* [Mean Absolute Percentage Error](https://en.wikipedia.org/wiki/Mean_absolute_percentage_error) 
 	* Ranking metrics
 		* [Recall and Precision at $K$ for Recommender Systems](https://medium.com/@m_n_malaeb/recall-and-precision-at-k-for-recommender-systems-618483226c54) 
 		* [Normalized Discounted Cumulative Gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain#Normalized_DCG) 
