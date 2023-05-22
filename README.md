@@ -1,5 +1,6 @@
 # Data Science and Machine Learning Reading List: From 101 to Advanced Topics
 
+
 ### Table of Contents
 * [Preface](#Preface)
 * [Probability and Statistics](#Probability-and-Statistics)
@@ -16,6 +17,7 @@
 * [Natural Language Processing](#Natural-Language-Processing)
 * [Search and Ranking](#Search-and-Ranking)
 * [Data Structures and Algorithms](#Data-Structures-and-Algorithms)
+
 
 ### Preface
 
@@ -35,6 +37,7 @@
 * Bayesian statistics
 	* [Formal Description of Bayesian Inference](https://en.wikipedia.org/wiki/Bayesian_inference#Formal_description_of_Bayesian_inference) 
 
+
 ### Linear Regression
 * Ordinary Least Squares
 	* Section 3.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
@@ -44,19 +47,12 @@
 	* Section 3.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 * R Squared
 	* [Coefficient of Determination](https://en.wikipedia.org/wiki/Coefficient_of_determination) 
-
 * Violations of Linear Regression Assumptions and Remedies
 	* [Violations of Classical Linear Regression Assumptions](https://www.bauer.uh.edu/jhess/documents/ViolationsofClassicalLinearRegressionAssumptions.doc) 
 	* [Generalized Least Squares](https://en.wikipedia.org/wiki/Generalized_least_squares) 
 	* [Newey–West Estimator](https://en.wikipedia.org/wiki/Newey%E2%80%93West_estimator) 
 	* [Cochrane–Orcutt Estimation](https://en.wikipedia.org/wiki/Cochrane%E2%80%93Orcutt_estimation) 
-* Shrinkage and High Dimensional Methods
-	* Subset Selection
-		* Section 3.3.1, 3.3.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-	* Principle Component Regression
-		* Section 3.5.1, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-	* Partial Least Squares
-		* Section 3.5.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* Shrinkage methods
 	* Ridge Regression
 		* Section 3.4.1, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 	* Lasso and Its Variants
@@ -71,9 +67,7 @@
 		* [Variable Selection via Nonconcave Penalized Likelihood and Its Oracle Properties](https://fan.princeton.edu/papers/01/penlike.pdf) 
 		* [Nearly Unbiased Variable Selection under Minimax Concave Penalty](https://arxiv.org/pdf/1002.4734.pdf) 
 		* [Sure Independence Screening for Ultrahigh Dimensional Feature Space](https://fan.princeton.edu/papers/06/SIS.pdf) 
-* Least Trimmed Squares
-	* Section 8.4.2, [Linear Models with R, 2nd](https://www.routledge.com/Linear-Models-with-R/Faraway/p/book/9781439887332) 
-* Quantile Regression
+* Quantile regression
 	* [Quantile Regression](https://en.wikipedia.org/wiki/Quantile_regression) 
 
 
@@ -84,44 +78,25 @@
 	* Section 2.2, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
 * White Noise
 	* Section 2.3, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-
-### ARMA
-* Section 2.6, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-
-### Unit-Root Nonstationarity
-* Section 2.7, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-
-## Nonlinear Linear Time Series Models
-
-### Threshold Autoregressive Model
-* Section 4.1.2, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-
-### Markov Switching Model
-* Section 4.1.4, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-
-## Volatility Models
-
-### ARCH
-* Section 3.4, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-
-### GARCH and Its Extensions
-* Section 3.5, 3.6, 3.8, 3.9, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-
-
-## Multivariate Time Series Models
-
-### Vector Autoregressive Model
-* Section 8.2, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-
-### Cointegration and Error-Correction Model
-* [Cointegration](https://en.wikipedia.org/wiki/Cointegration) 
-* [Error Correction Model](https://en.wikipedia.org/wiki/Error_correction_model) 
-* [Cointegration: The Engle and Granger Approach](https://warwick.ac.uk/fac/soc/economics/staff/gboero/personal/hand2_cointeg.pdf) 
-
-## State-Space Model, Structural Time Series, and Kalman Filter
-* Chapter 5, [A Very Short Course on Time Series Analysis](https://bookdown.org/rdpeng/timeseriesbook/state-space-models-and-the-kalman-filter.html) 
-* [Forecasting at Scale](https://peerj.com/preprints/3190.pdf) 
-* [Predicting the Present with Bayesian Structural Time Series](https://people.ischool.berkeley.edu/~hal/Papers/2013/pred-present-with-bsts.pdf) 
+* ARMA
+	* Section 2.6, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
+* Unit-Root Nonstationarity
+	* Section 2.7, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
+* Markov Switching Model
+	* Section 4.1.4, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
+* ARCH and GARCH models
+	* Section 3.4, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
+	* Section 3.5, 3.6, 3.8, 3.9, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
+* Vector Autoregressive Model
+	* Section 8.2, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
+* Cointegration and Error-Correction Model
+	* [Cointegration](https://en.wikipedia.org/wiki/Cointegration) 
+	* [Error Correction Model](https://en.wikipedia.org/wiki/Error_correction_model) 
+	* [Cointegration: The Engle and Granger Approach](https://warwick.ac.uk/fac/soc/economics/staff/gboero/personal/hand2_cointeg.pdf) 
+* State-Space Model, Structural Time Series, and Kalman Filter
+	* Chapter 5, [A Very Short Course on Time Series Analysis](https://bookdown.org/rdpeng/timeseriesbook/state-space-models-and-the-kalman-filter.html) 
+	* [Forecasting at Scale](https://peerj.com/preprints/3190.pdf) 
+	* [Predicting the Present with Bayesian Structural Time Series](https://people.ischool.berkeley.edu/~hal/Papers/2013/pred-present-with-bsts.pdf) 
 
 
 ### Supervised Learning
@@ -131,7 +106,6 @@
 	* Section 6.6.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 	* Relationship to Logistic Regression
 		* Section 4, [Generative and Discriminative Classifiers: Naive Bayes and Logistic Regression](https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf) 
-
 * Linear Discriminant Analysis
 	* Secion 4.4, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 * K-Nearest Neighbor
@@ -146,7 +120,7 @@
 	* Section 15.1-15.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 * Boosting
 	* [Boosting](https://web.stanford.edu/~hastie/TALKS/boost.pdf)  
-	* [Introduction to Boosted Trees](https://xgboost.readthedocs.io/en/latest/tutorials/model.html) `documentation`
+	* [Introduction to Boosted Trees](https://xgboost.readthedocs.io/en/latest/tutorials/model.html) 
 	* [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf) 
 	* [LightGBM: A Highly Efficient Gradient Boosting Decision Tree](http://www.audentia-gestion.fr/MICROSOFT/lightgbm.pdf) 
 	* [CatBoost: Gradient Boosting with Categorical Features Support](http://learningsys.org/nips17/assets/papers/paper_11.pdf) 
@@ -173,23 +147,20 @@
 
 
 ### Data Preparation
-* Feature Scaling
-	* [Standardization](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler) `documentation`
-	* [Normalization](https://scikit-learn.org/stable/modules/preprocessing.html#normalization) `documentation`
-	* [Scaling Features to a Range](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html) `documentation`
-	* [Mapping to a Uniform Distribution](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.QuantileTransformer.html#sklearn.preprocessing.QuantileTransformer) `documentation`
-* Feature Encoding
-	* [OneHot Encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html#sklearn.preprocessing.OneHotEncoder) `documentation`
-	* [Label Encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html#sklearn.preprocessing.LabelEncoder) `documentation`
-	* [Ordinal Encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OrdinalEncoder.html#sklearn.preprocessing.OrdinalEncoder) `documentation`
-* Missing Data
+* Feature engineering
+	* [Standardization](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler) 
+	* [Normalization](https://scikit-learn.org/stable/modules/preprocessing.html#normalization) 
+	* [Scaling Features to a Range](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html) 
+	* [Mapping to a Uniform Distribution](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.QuantileTransformer.html#sklearn.preprocessing.QuantileTransformer) 
+	* [OneHot Encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html#sklearn.preprocessing.OneHotEncoder) 
+	* [Label Encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html#sklearn.preprocessing.LabelEncoder) 
+	* [Ordinal Encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OrdinalEncoder.html#sklearn.preprocessing.OrdinalEncoder) 
+* Missing data
 	* [The Prevention and Handling of the Missing Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3668100/) 
-	* [Statistical Analysis with Missing Data, 3rd](https://www.wiley.com/en-us/Statistical+Analysis+with+Missing+Data%2C+3rd+Edition-p-9780470526798) `book`
-* Imbalanced Labels
-	*  Sampling
+	* [Statistical Analysis with Missing Data, 3rd](https://www.wiley.com/en-us/Statistical+Analysis+with+Missing+Data%2C+3rd+Edition-p-9780470526798) 
+* Imbalanced labels
 	* [SMOTE: Synthetic Minority Over-Sampling Technique](https://arxiv.org/pdf/1106.1813.pdf) 
-	* [Imbalanced-learn: A Python Toolbox to Tackle the Curse of
-	Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16-365/16-365.pdf) 
+	* [Imbalanced-learn: A Python Toolbox to Tackle the Curse of Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16-365/16-365.pdf) 
 * Recalibration
 	* Section 6.3, [Practical Lessons from Predicting Clicks on Ads at Facebook](https://research.fb.com/wp-content/uploads/2016/11/practical-lessons-from-predicting-clicks-on-ads-at-facebook.pdf) 
 
@@ -201,29 +172,26 @@
 * Cross Validation
 	* Section 7.10, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 	* [A Study of CrossValidation and Bootstrap for Accuracy Estimation and Model Selectio](https://ai.stanford.edu/~ronnyk/accEst.pdf) 
-* Hyperparameter Optimization
-	* Grid Search
-		* [Exhaustive Grid Search](https://scikit-learn.org/stable/modules/grid_search.html#grid-search) `documentation`
-	* Random Search
-		* [Randomized Parameter Search](https://scikit-learn.org/stable/modules/grid_search.html#randomized-parameter-search) `documentation`
-	* Bayesian Optimization
-		* [CSC321 lecture 21: Bayesian Hyperparameter Optimization](https://netman.aiops.org/~peidan/ANM2019/2.MachineLearningBasics/LectureCoverage/27.BayesianOptimization.pdf) 
-		* [Practical Bayesian Optimization of Machine Learning Algorithms](https://proceedings.neurips.cc/paper/2012/file/05311655a15b75fab86956663e1819cd-Paper.pdf) 
+* Hyperparameter optimization
+	* [Exhaustive Grid Search](https://scikit-learn.org/stable/modules/grid_search.html#grid-search) 
+	* [Randomized Parameter Search](https://scikit-learn.org/stable/modules/grid_search.html#randomized-parameter-search) 
+	* [CSC321 lecture 21: Bayesian Hyperparameter Optimization](https://netman.aiops.org/~peidan/ANM2019/2.MachineLearningBasics/LectureCoverage/27.BayesianOptimization.pdf) 
+	* [Practical Bayesian Optimization of Machine Learning Algorithms](https://proceedings.neurips.cc/paper/2012/file/05311655a15b75fab86956663e1819cd-Paper.pdf) 
 * Model Evaluation Metrics
 	* Classification metrics
 		* [Precision and Recall](https://en.wikipedia.org/wiki/Precision_and_recall) 
 		* [F1-Score](https://en.wikipedia.org/wiki/F-score) 
 		* [Confusion Matrix](https://en.wikipedia.org/wiki/Confusion_matrix) 
 		* [Area Under the ROC Curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve) 
-	* Regression Metrics
+	* Regression metrics
 		* [Mean Squared Error](https://en.wikipedia.org/wiki/Mean_squared_error) 
 		* [Mean Absolute Deviation](https://en.wikipedia.org/wiki/Average_absolute_deviation) 
 		* [Mean Absolute Percentage Error](https://en.wikipedia.org/wiki/Mean_absolute_percentage_error) 
-	* Ranking Metrics
+	* Ranking metrics
 		* [Recall and Precision at $K$ for Recommender Systems](https://medium.com/@m_n_malaeb/recall-and-precision-at-k-for-recommender-systems-618483226c54) 
 		* [Normalized Discounted Cumulative Gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain#Normalized_DCG) 
 		* [Ranking Measures and Loss Functions in Learning to Rank](https://papers.nips.cc/paper/2009/file/2f55707d4193dc27118a0f19a1985716-Paper.pdf) 
-	* Information Criteria
+	* Information criteria
 		* Akaike Information Criterion
 			* Section 7.5, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 		* Bayes Information Criterion
@@ -233,9 +201,9 @@
 ### Causal Inference
 * Overview
 	* [A Survey on Causal Inference](https://arxiv.org/pdf/2002.02770.pdf) 
-	* [Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction](https://www.amazon.com/Causal-Inference-Statistics-Biomedical-Sciences/dp/0521885884) `book`
+	* [Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction](https://www.amazon.com/Causal-Inference-Statistics-Biomedical-Sciences/dp/0521885884) 
 * A/B Testing
-	* [Trustworthy Online Controlled Experiments](https://www.cambridge.org/core/books/trustworthy-online-controlled-experiments/D97B26382EB0EB2DC2019A7A7B518F59) `book`
+	* [Trustworthy Online Controlled Experiments](https://www.cambridge.org/core/books/trustworthy-online-controlled-experiments/D97B26382EB0EB2DC2019A7A7B518F59) 
 * Matching Methods and Re-weighting Methods
 	* [An Introduction to Propensity Score Methods for Reducing the Effects of Confounding in Observational Studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144483/) 
 * Difference in Differences
@@ -265,7 +233,6 @@
 	* [Using Causal Inference to Improve the Uber User Experience](https://eng.uber.com/causal-inference-at-uber/) 
 
 
-
 ### Optimization Methods
 * Constrained Optimization
 	* [Lagrange Multiplier](https://en.wikipedia.org/wiki/Lagrange_multiplier) 
@@ -278,57 +245,84 @@
 	* [Newton's Method](https://en.wikipedia.org/wiki/Newton%27s_method) 
 
 
-
-### 6 Deep Learning
-## Overview
-* [Deep Learning](https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf) 
-* [Deep Learning](https://www.deeplearningbook.org/) `book`
-
-## Building Blocks and Feedforward Neural Networks
-### Backpropagation
-* [CS231n Lecture 4: Backpropagation and Neural Networks](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture4.pdf) 
-* [Backpropagation, Intuitions](https://cs231n.github.io/optimization-2/) 
-
-### Vanishing and Exploding Gradient 
-* [CSC321 Lecture 15: Exploding and Vanishing Gradients](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/readings/L15%20Exploding%20and%20Vanishing%20Gradients.pdf) 
-* [On the Difficulty of Training Recurrent Neural Networks](https://arxiv.org/pdf/1211.5063.pdf) 
-
-### Weight Initialization
-* [Weight Initialization Schemes - Xavier (Glorot) and He](https://mmuratarat.github.io/2019-02-25/xavier-glorot-he-weight-init) 
-* [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification
-](https://arxiv.org/pdf/1502.01852.pdf) 
-* [Understanding the Difficulty of Training Deep Feedforward Neural Networks](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf) 
-
-### Activation Functions
-* [Activation Functions: Comparison of Trends in Practice and Research for Deep Learning](https://arxiv.org/pdf/1811.03378.pdf) 
-* [Swish: A Self-Gated Activation Function](https://arxiv.org/pdf/1710.05941v1.pdf) 
-
-### Batch Normalization
-* [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf) 
-
-### Dropout
-* [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf) 
-* [Introduction of Dropout and Ensemble Model in the History of Deep Learning](https://medium.com/unpackai/introduction-of-dropout-and-ensemble-model-in-the-history-of-deep-learning-a4c2a512dcca) 
-
-### The Mathe Behind Deep Learning
-* Section 5-7, [A Selective Overview of Deep Learning](https://arxiv.org/pdf/1904.05526.pdf)  
-
-## Convolutional Neural Networks
-* [CS231n Lecture 5: Convolutional Neural Networks](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture5.pdf) 
-* [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/) 
-
-## Recurrent Neural Networks
-* [CS231n Lecture 10: Recurrent Neural Networks](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture10.pdf) 
-* [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) 
-* [Sequence to Sequence Learning with Neural Networks](https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf) 
-
-## Generative Learning
-* [CS231n Lecture 13: Generative Models](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture13.pdf) 
-* [Generative Adversarial Networks](https://arxiv.org/pdf/1406.2661.pdf) 
+### Deep Learning
+* Overview
+	* [Deep Learning](https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf) 
+	* [Deep Learning](https://www.deeplearningbook.org/) 
+* Backpropagation
+	* [CS231n Lecture 4: Backpropagation and Neural Networks](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture4.pdf) 
+	* [Backpropagation, Intuitions](https://cs231n.github.io/optimization-2/) 
+* Vanishing and Exploding Gradient 
+	* [CSC321 Lecture 15: Exploding and Vanishing Gradients](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/readings/L15%20Exploding%20and%20Vanishing%20Gradients.pdf) 
+	* [On the Difficulty of Training Recurrent Neural Networks](https://arxiv.org/pdf/1211.5063.pdf) 
+* Weight Initialization
+	* [Weight Initialization Schemes - Xavier (Glorot) and He](https://mmuratarat.github.io/2019-02-25/xavier-glorot-he-weight-init) 
+	* [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification
+	](https://arxiv.org/pdf/1502.01852.pdf) 
+	* [Understanding the Difficulty of Training Deep Feedforward Neural Networks](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf) 
+* Activation Functions
+	* [Activation Functions: Comparison of Trends in Practice and Research for Deep Learning](https://arxiv.org/pdf/1811.03378.pdf) 
+	* [Swish: A Self-Gated Activation Function](https://arxiv.org/pdf/1710.05941v1.pdf) 
+* Batch Normalization
+	* [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf) 
+* Dropout
+	* [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf) 
+	* [Introduction of Dropout and Ensemble Model in the History of Deep Learning](https://medium.com/unpackai/introduction-of-dropout-and-ensemble-model-in-the-history-of-deep-learning-a4c2a512dcca) 
+* The Mathe Behind Deep Learning
+	* Section 5-7, [A Selective Overview of Deep Learning](https://arxiv.org/pdf/1904.05526.pdf)  
+* Convolutional Neural Networks
+	* [CS231n Lecture 5: Convolutional Neural Networks](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture5.pdf) 
+	* [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/) 
+* Recurrent Neural Networks
+	* [CS231n Lecture 10: Recurrent Neural Networks](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture10.pdf) 
+	* [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) 
+	* [Sequence to Sequence Learning with Neural Networks](https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf) 
+* Generative Learning
+	* [CS231n Lecture 13: Generative Models](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture13.pdf) 
+	* [Generative Adversarial Networks](https://arxiv.org/pdf/1406.2661.pdf) 
 
 
+### Computer Vision
+* [CS231n Lecture 9: CNN Architectures](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture9.pdf) 
+* [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet) 
+* LeNet-5: [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf) 
+* AlexNet: [ImageNet Classification with Deep Convolutional Neural Networks](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) 
+* GoogleNet: [Going Deeper with Convolutions](https://arxiv.org/pdf/1409.4842.pdf) 
+* VGGNet: [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf) 
+* ResNet: [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) 
+* Xception: [Xception: Deep Learning with Depthwise Separable Convolutions](https://arxiv.org/pdf/1610.02357.pdf) 
+* ResNeXt: [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf)
+* SENet: [Squeeze-and-Excitation Networks](https://arxiv.org/pdf/1709.01507.pdf) 
 
-### Recommendation Systems
+
+### Natural Language Processing
+* Word2Vec
+	* [The Illustrated Word2Vec](http://jalammar.github.io/illustrated-word2vec/) 
+	* [Word2Vec Tutorial - The Skip-Gram Model](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)
+	* [Word2Vec Tutorial Part 2 - Negative Sampling](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/) 
+	* [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/) 
+* Attention and Transformer
+	* [Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf) 
+	* [Visualizing a Neural Machine Translation Model](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/) 
+	* [Transformer: A Novel Neural Network Architecture for Language Understanding](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html) 
+	* [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) 
+* ELMo
+	* ELMo: [Deep Contextualized Word Representations](https://arxiv.org/pdf/1802.05365.pdf) 
+	* [Deep Contextualized Word Representations with ELMo](https://www.mihaileric.com/posts/deep-contextualized-word-representations-elmo/) 
+* GPT Series
+	* GPT2: [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) 
+	* [The Illustrated GPT-2](http://jalammar.github.io/illustrated-gpt2/) 
+	* GPT3: [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) 
+* BERT and Its Variants
+	* [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf) 
+	* [The Illustrated BERT, ELMo, and Co.](http://jalammar.github.io/illustrated-bert/) 
+	* [A Visual Guide to Using BERT for the First Time](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) 
+	* [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf) 
+	* [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf) 
+	* [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/pdf/1909.11942.pdf) 
+
+
+### Search and Ranking
 * [A Large-Scale Deep Architecture for Personalized Grocery Basket Recommendations](https://arxiv.org/pdf/1910.12757.pdf 
 * [Behavior Sequence Transformer for E-commerce Recommendation in Alibaba](https://arxiv.org/pdf/1905.06874.pdf) 
 * [Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba](https://arxiv.org/pdf/1803.02349.pdf) 
@@ -364,46 +358,6 @@
 * [Shop The Look: Building a Large Scale Visual Shopping System at Pinterest](https://dl.acm.org/doi/pdf/10.1145/3394486.3403372)
 * [Talent Search and Recommendation Systems at LinkedIn: Practical Challenges and Lessons Learned](https://arxiv.org/pdf/1809.06481.pdf) 
 * [Towards Personalized and Semantic Retrieval for E-commerce Search via Embedding Learning](https://arxiv.org/pdf/2006.02282.pdf) 
-
-
-### Computer Vision
-* [CS231n Lecture 9: CNN Architectures](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture9.pdf) 
-* [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet) 
-* LeNet-5: [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf) 
-* AlexNet: [ImageNet Classification with Deep Convolutional Neural Networks](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) 
-* GoogleNet: [Going Deeper with Convolutions](https://arxiv.org/pdf/1409.4842.pdf) 
-* VGGNet: [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf) 
-* ResNet: [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) 
-* Xception: [Xception: Deep Learning with Depthwise Separable Convolutions](https://arxiv.org/pdf/1610.02357.pdf) 
-* ResNeXt: [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf)
-* SENet: [Squeeze-and-Excitation Networks](https://arxiv.org/pdf/1709.01507.pdf) 
-
-
-### Natural Language Processing
-* Word2Vec
-	* [The Illustrated Word2Vec](http://jalammar.github.io/illustrated-word2vec/) 
-	* [Word2Vec Tutorial - The Skip-Gram Model](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)
-	* [Word2Vec Tutorial Part 2 - Negative Sampling](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/) 
-	* [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/) `other`
-* Attention and Transformer
-	* [Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf) 
-	* [Visualizing a Neural Machine Translation Model](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/) 
-	* [Transformer: A Novel Neural Network Architecture for Language Understanding](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html) 
-	* [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) 
-* ELMo
-	* ELMo: [Deep Contextualized Word Representations](https://arxiv.org/pdf/1802.05365.pdf) 
-	* [Deep Contextualized Word Representations with ELMo](https://www.mihaileric.com/posts/deep-contextualized-word-representations-elmo/) 
-* GPT Series
-	* GPT2: [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) 
-	* [The Illustrated GPT-2](http://jalammar.github.io/illustrated-gpt2/) 
-	* GPT3: [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) 
-* BERT and Its Variants
-	* [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf) 
-	* [The Illustrated BERT, ELMo, and Co.](http://jalammar.github.io/illustrated-bert/) 
-	* [A Visual Guide to Using BERT for the First Time](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) 
-	* [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf) 
-	* [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf) 
-	* [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/pdf/1909.11942.pdf) 
 
 
 ### Data Structures and Algorithms
