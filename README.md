@@ -1,54 +1,42 @@
-# Data Science and Machine Learning Reading List: 
-# From 101 to Advanced Topics
+# Data Science and Machine Learning Reading List: From 101 to Advanced Topics
 
 
 ## Part I: Foundations
-### 1 Probability and Statistical
+### 1 Probability and Statistics
 * Probability Space and Measure
 	* [Probability Space](https://en.wikipedia.org/wiki/Probability_space) `wiki`
 * Common Probability Distributions
 	* [Univariate Distribution Relationships](http://www.math.wm.edu/~leemis/2008amstat.pdf) `paper`
+* Convergence of Random Variables
+	* [Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers) `wiki`
+	* [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem) `wiki`
+* Estimation methods
+	* [Method of Moments Estimation](https://en.wikipedia.org/wiki/Method_of_moments_(statistics)) `wiki`
+	* [Maximum Likelihood Estimation](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation) `wiki`
+	* [Confidence Interval](https://en.wikipedia.org/wiki/Confidence_interval) `wiki`
+	* [Bootstrap: A Statistical Method](https://www.stat.rutgers.edu/home/mxie/rcpapers/bootstrap.pdf) `paper`
+* Hypothesis Testing
+	* [Tests of Hypotheses Using Statistics](https://web.williams.edu/Mathematics/sjmiller/public_html/BrownClasses/162/Handouts/StatsTests04.pdf) `lecture notes`
+	* [Type I and Type II Errors](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors) `wiki`
+	* [$P$-Value](https://en.wikipedia.org/wiki/P-value) `wiki`
+	* [American Statistical Association Releases Statement on Statistical Significance and $P$-Values](https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf) `other`
+	* [$Z$-Test](https://en.wikipedia.org/wiki/Z-test) `wiki`
+	* [Test of Proportion](https://online.stat.psu.edu/statprogram/reviews/statistical-concepts/proportions) `wiki`
+	* [One Sample $T$-Test](https://en.wikipedia.org/wiki/Student%27s_t-test#One-sample_t-test) `wiki`
+	* [Two Sample $T$-Test with Equal Variance](https://en.wikipedia.org/wiki/Student%27s_t-test#Equal_or_unequal_sample_sizes,_similar_variances_(1/2_%3C_sX1/sX2_%3C_2%29)) `wiki`
+	* [Two Sample $T$-Test with Unequal Variance](https://en.wikipedia.org/wiki/Student%27s_t-test#Equal_or_unequal_sample_sizes,_unequal_variances_(sX1_%3E_2sX2_or_sX2_%3E_2sX1%29)) `wiki`
+	* [Paired $T$-Test](https://en.wikipedia.org/wiki/Student%27s_t-test#Dependent_t-test_for_paired_samples) `wiki`
+	* [Pearson's $\chi^2$ Test](https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test) `wiki`
+	* [Kolmogorov-Smirnov Test](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test) `wiki`
+	* [Wilcoxon Rank-Sum Test](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test) `wiki`
+	* [Wilcoxon Signed-Rank Test](https://en.wikipedia.org/wiki/Wilcoxon_signed-rank_test) `wiki`
 
-### Convergence of Random Variables
-* [Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers) `wiki`
-* [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem) `wiki`
-
-## Statistical Inference
-
-### Estimation
-* [Method of Moments Estimation](https://en.wikipedia.org/wiki/Method_of_moments_(statistics)) `wiki`
-* [Maximum Likelihood Estimation](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation) `wiki`
-* [Confidence Interval](https://en.wikipedia.org/wiki/Confidence_interval) `wiki`
-* [Bootstrap: A Statistical Method](https://www.stat.rutgers.edu/home/mxie/rcpapers/bootstrap.pdf) `paper`
-
-## Hypothesis Testing
-* [Tests of Hypotheses Using Statistics](https://web.williams.edu/Mathematics/sjmiller/public_html/BrownClasses/162/Handouts/StatsTests04.pdf) `lecture notes`
-
-### Concepts
-* [Type I and Type II Errors](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors) `wiki`
-* [$P$-Value](https://en.wikipedia.org/wiki/P-value) `wiki`
-* [American Statistical Association Releases Statement on Statistical Significance and $P$-Values](https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf) `other`
-
-### Parametric Tests
-* [$Z$-Test](https://en.wikipedia.org/wiki/Z-test) `wiki`
-* [Test of Proportion](https://online.stat.psu.edu/statprogram/reviews/statistical-concepts/proportions) `wiki`
-* [One Sample $T$-Test](https://en.wikipedia.org/wiki/Student%27s_t-test#One-sample_t-test) `wiki`
-* [Two Sample $T$-Test with Equal Variance](https://en.wikipedia.org/wiki/Student%27s_t-test#Equal_or_unequal_sample_sizes,_similar_variances_(1/2_%3C_sX1/sX2_%3C_2%29)) `wiki`
-* [Two Sample $T$-Test with Unequal Variance](https://en.wikipedia.org/wiki/Student%27s_t-test#Equal_or_unequal_sample_sizes,_unequal_variances_(sX1_%3E_2sX2_or_sX2_%3E_2sX1%29)) `wiki`
-* [Paired $T$-Test](https://en.wikipedia.org/wiki/Student%27s_t-test#Dependent_t-test_for_paired_samples) `wiki`
-* [Pearson's $\chi^2$ Test](https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test) `wiki`
-
-### Nonparametric Tests
-* [Kolmogorov-Smirnov Test](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test) `wiki`
-* [Wilcoxon Rank-Sum Test](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test) `wiki`
-* [Wilcoxon Signed-Rank Test](https://en.wikipedia.org/wiki/Wilcoxon_signed-rank_test) `wiki`
-
-## Bayesian Statistical Inference
-* [Formal Description of Bayesian Inference](https://en.wikipedia.org/wiki/Bayesian_inference#Formal_description_of_Bayesian_inference) `wiki`
-* [What's the Difference between a Confidence Interval and a Credible Interval?](https://stats.stackexchange.com/questions/2272/whats-the-difference-between-a-confidence-interval-and-a-credible-interval) `forum`
+* Bayesian Statistics
+	* [Formal Description of Bayesian Inference](https://en.wikipedia.org/wiki/Bayesian_inference#Formal_description_of_Bayesian_inference) `wiki`
+	* [What's the Difference between a Confidence Interval and a Credible Interval?](https://stats.stackexchange.com/questions/2272/whats-the-difference-between-a-confidence-interval-and-a-credible-interval) `forum`
 
 
-# 2 Linear Regression
+### 2. Linear Regression
 
 ## Classical Linear Regression
 
