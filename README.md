@@ -1,8 +1,8 @@
 # Data Science and Machine Learning Reading List: From 101 to Advanced Topics
 
 ### Table of Contents
-[1. Probability and Statistics](#Probability-and-Statistics)
-3. Linear Regression
+*[Probability and Statistics](#Probability-and-Statistics)
+*[Linear Regression](#linear-regression)
 4. Supervised Learning
 5. Unsupervised Learning
 6. Deep Learning
