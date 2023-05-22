@@ -14,7 +14,7 @@
 * [Deep Learning](#Deep-Learning)
 * [Deep NLP](#Deep-NLP)
 * [Deep Recommendation](#Deep-Recommendation)
-* [A/B Testing and Causal Inference](#Causal-Inference)
+* [A/B Testing and Causal Inference](#A/B-Testing-and-Causal-Inference)
 * [Data Structures and Algorithms](#Data-Structures-and-Algorithms)
 
 
@@ -184,25 +184,22 @@ This list comprises recommended readings to help you prepare for data science an
 	* [Word2Vec Tutorial - The Skip-Gram Model](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)
 	* [Word2Vec Tutorial Part 2 - Negative Sampling](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/) 
 	* [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/) 
-* Attention and Transformer
-	* [Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf) 
-	* [Visualizing a Neural Machine Translation Model](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/) 
-	* [Transformer: A Novel Neural Network Architecture for Language Understanding](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html) 
-	* [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) 
-* ELMo
+* Large language model
+	* Transformers: [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf) 
 	* ELMo: [Deep Contextualized Word Representations](https://arxiv.org/pdf/1802.05365.pdf) 
+	* GPT-1: [Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)
+	* GPT-2: [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) 
+	* [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf) 	
+	* GPT-3: [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) 
+	* [LLaMA: Open and Efficient Foundation Language Models](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.8562-6/333078981_693988129081760_4712707815225756708_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=ad8a9d&_nc_ohc=p20b5GlumjoAX_L38O5&_nc_ht=scontent-sjc3-1.xx&oh=00_AfD2a62cs5euKCoMwRFPTOXj8BCj48Vpiow3hIU6JwSQVg&oe=647087E2)
+	* [GPT-4 Technical Report](https://arxiv.org/pdf/2303.08774.pdf)	
+* Blogs and tutorals
+	* [Visualizing a Neural Machine Translation Model](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/) 
+	* [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) 
 	* [Deep Contextualized Word Representations with ELMo](https://www.mihaileric.com/posts/deep-contextualized-word-representations-elmo/) 
-* GPT Series
-	* GPT2: [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) 
 	* [The Illustrated GPT-2](http://jalammar.github.io/illustrated-gpt2/) 
-	* GPT3: [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) 
-* BERT and Its Variants
-	* [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf) 
 	* [The Illustrated BERT, ELMo, and Co.](http://jalammar.github.io/illustrated-bert/) 
 	* [A Visual Guide to Using BERT for the First Time](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) 
-	* [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf) 
-	* [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf) 
-	* [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/pdf/1909.11942.pdf) 
 
 
 ### Deep Recommendation
@@ -241,21 +238,17 @@ This list comprises recommended readings to help you prepare for data science an
 * Overview
 	* [A Survey on Causal Inference](https://arxiv.org/pdf/2002.02770.pdf) 
 	* [Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction](https://www.amazon.com/Causal-Inference-Statistics-Biomedical-Sciences/dp/0521885884) 
-* A/B Testing
-	* [Trustworthy Online Controlled Experiments](https://www.cambridge.org/core/books/trustworthy-online-controlled-experiments/D97B26382EB0EB2DC2019A7A7B518F59) 
-* Matching Methods and Re-weighting Methods
+* Basic methods
 	* [An Introduction to Propensity Score Methods for Reducing the Effects of Confounding in Observational Studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144483/) 
-* Difference in Differences
 	* [Difference-in-Differences Estimation](https://personal.utdallas.edu/~d.sul/Econo2/lect_10_diffindiffs.pdf) 
-* Uplift Trees
+* Uplift Trees and Meta Learners
 	* [Modeling Uplift Directly: Uplift Decision Tree with KL Divergence and Euclidean Distance as Splitting Criteria](https://tech.wayfair.com/data-science/2019/10/modeling-uplift-directly-uplift-decision-tree-with-kl-divergence-and-euclidean-distance-as-splitting-criteria/) 
 	* [Real-World Uplift Modelling with Significance-Based Uplift Trees](https://stochasticsolutions.com/pdf/sig-based-up-trees.pdf) 
 	* [Recursive Partitioning for Heterogeneous Causal Effects](https://www.pnas.org/content/113/27/7353) 
 	* [Uplift Modeling with Multiple Treatments and General Response Types](https://arxiv.org/pdf/1705.08492.pdf) 
-* Meta Learners
 	* [Meta-Learners for Eestimating Heterogeneous Treatment Effects Using Machine Learning](https://arxiv.org/pdf/1706.03461.pdf) 
 	* [Quasi-Oracle Estimation of Heterogeneous Treatment Effects](https://arxiv.org/pdf/1712.04912.pdf) 
-* Causal Inference in Industry
+* Causal inference in industry
 	* [A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook](https://www.kellogg.northwestern.edu/faculty/gordon_b/files/fb_comparison.pdf) 
 	* [CausalML: Python Package for Causal Machine Learning](https://arxiv.org/pdf/2002.11631.pdf) 
 	* [Evaluating Online Ad Campaigns in a Pipeline: Causal Models at Scale](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36552.pdf) 
