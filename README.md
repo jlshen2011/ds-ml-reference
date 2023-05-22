@@ -18,7 +18,7 @@
 
 
 ### Probability and Statistics 
-[back](#Table-of-Contents)
+[[back]](#Table-of-Contents)
 * Probability Space and Measure
 	* [Probability Space](https://en.wikipedia.org/wiki/Probability_space)
 * Common Probability Distributions
