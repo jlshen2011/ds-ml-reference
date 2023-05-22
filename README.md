@@ -71,35 +71,28 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Supervised Learning
-* Logistic Regression
+* Logistic regression
 	* Section 4.4, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-* Naive Bayes Classifier
+* Naive Bayes classifier
 	* Section 6.6.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-	* Relationship to Logistic Regression
-		* Section 4, [Generative and Discriminative Classifiers: Naive Bayes and Logistic Regression](https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf) 
-* Linear Discriminant Analysis
-	* Secion 4.4, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-* K-Nearest Neighbor
+	* Section 4, [Generative and Discriminative Classifiers: Naive Bayes and Logistic Regression](https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf) 
+* K-nearest neighbor
 	* Secion 13.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-* Support Vector Machine
-	* Secion 12.1-12.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* Support vector machines
+	* Secion 12.1, 12.2, 12.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 * Classification and Regression Trees
 	* Secion 9.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-* Bagging
-	* Section 8.7, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-* Random Forests
-	* Section 15.1-15.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
+* Bagging and random forests
+	* Section 8.7, 15.1, 15.2, 15.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 * Boosting
 	* [Boosting](https://web.stanford.edu/~hastie/TALKS/boost.pdf)  
 	* [Introduction to Boosted Trees](https://xgboost.readthedocs.io/en/latest/tutorials/model.html) 
 	* [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf) 
 	* [LightGBM: A Highly Efficient Gradient Boosting Decision Tree](http://www.audentia-gestion.fr/MICROSOFT/lightgbm.pdf) 
-* Stacking
-	* Section 8.8, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 
 
 ### Unsupervised Learning
-* K-Means clustering
+* K-means clustering
 	* Section 8.5.1, 14.3.6, 14.3.7, 14.3.11, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 * Hierarchical clustering
 	* Section 14.3.12, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
@@ -107,9 +100,7 @@ This list comprises recommended readings to help you prepare for data science an
 	* [A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise](https://www.aaai.org/Papers/KDD/1996/KDD96-037.pdf) 
 	* [OPTICS: Ordering Points to Identify the Clustering Structure](https://www.dbs.ifi.lmu.de/Publikationen/Papers/OPTICS.pdf) 
 * Principal component analysis
-	* [Principal Component Analysis](https://www.comp.nus.edu.sg/~cs5240/lecture/pca.pdf) 
-* Statistical factor analysis
-	* Secion 9.5, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
+	* [Principal Component Analysis](https://www.comp.nus.edu.sg/~cs5240/lecture/pca.pdf)  
 
 
 ### Data Preparation
