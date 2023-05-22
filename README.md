@@ -21,11 +21,11 @@
 
 
 ### Probability and Statistics 
-* Probability Space and Measure
+* Probability space and measure
 	* [Probability Space](https://en.wikipedia.org/wiki/Probability_space)
-* Common Probability Distributions
+* Common probability distributions
 	* [Univariate Distribution Relationships](http://www.math.wm.edu/~leemis/2008amstat.pdf)
-* Convergence of Random Variables
+* Convergence theory
 	* [Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers)
 	* [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem)
 * Estimation methods
@@ -36,22 +36,21 @@
 * Hypothesis testing
 	* [Tests of Hypotheses Using Statistics](https://web.williams.edu/Mathematics/sjmiller/public_html/BrownClasses/162/Handouts/StatsTests04.pdf)
 	* [Type I and Type II Errors](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors) 
-	* [$P$-Value](https://en.wikipedia.org/wiki/P-value) 
+	* [P-Value](https://en.wikipedia.org/wiki/P-value) 
 	* [American Statistical Association Releases Statement on Statistical Significance and $P$-Values](https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf)
-	* [$Z$-Test](https://en.wikipedia.org/wiki/Z-test) 
+	* [Z-Test](https://en.wikipedia.org/wiki/Z-test) 
 	* [Test of Proportion](https://online.stat.psu.edu/statprogram/reviews/statistical-concepts/proportions) 
-	* [One Sample $T$-Test](https://en.wikipedia.org/wiki/Student%27s_t-test#One-sample_t-test) 
-	* [Two Sample $T$-Test with Equal Variance](https://en.wikipedia.org/wiki/Student%27s_t-test#Equal_or_unequal_sample_sizes,_similar_variances_(1/2_%3C_sX1/sX2_%3C_2%29)) 
-	* [Two Sample $T$-Test with Unequal Variance](https://en.wikipedia.org/wiki/Student%27s_t-test#Equal_or_unequal_sample_sizes,_unequal_variances_(sX1_%3E_2sX2_or_sX2_%3E_2sX1%29)) 
+	* [One Sample t-Test](https://en.wikipedia.org/wiki/Student%27s_t-test#One-sample_t-test) 
+	* [Two Sample t-Test with Equal Variance](https://en.wikipedia.org/wiki/Student%27s_t-test#Equal_or_unequal_sample_sizes,_similar_variances_(1/2_%3C_sX1/sX2_%3C_2%29)) 
+	* [Two Sample t-Test with Unequal Variance](https://en.wikipedia.org/wiki/Student%27s_t-test#Equal_or_unequal_sample_sizes,_unequal_variances_(sX1_%3E_2sX2_or_sX2_%3E_2sX1%29)) 
 	* [Paired $T$-Test](https://en.wikipedia.org/wiki/Student%27s_t-test#Dependent_t-test_for_paired_samples) 
 	* [Pearson's $\chi^2$ Test](https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test) 
 	* [Kolmogorov-Smirnov Test](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test) 
 	* [Wilcoxon Rank-Sum Test](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test) 
 	* [Wilcoxon Signed-Rank Test](https://en.wikipedia.org/wiki/Wilcoxon_signed-rank_test) 
-* Bayesian Statistics
+* Bayesian statistics
 	* [Formal Description of Bayesian Inference](https://en.wikipedia.org/wiki/Bayesian_inference#Formal_description_of_Bayesian_inference) 
 	* [What's the Difference between a Confidence Interval and a Credible Interval?](https://stats.stackexchange.com/questions/2272/whats-the-difference-between-a-confidence-interval-and-a-credible-interval) 
-
 
 
 ### Linear Regression
