@@ -40,15 +40,10 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Linear Regression
-* Ordinary Least Squares
+* Ordinary least squares
 	* Section 3.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-* R Squared
 	* [Coefficient of Determination](https://en.wikipedia.org/wiki/Coefficient_of_determination) 
-* Violations of Linear Regression Assumptions and Remedies
 	* [Violations of Classical Linear Regression Assumptions](https://www.bauer.uh.edu/jhess/documents/ViolationsofClassicalLinearRegressionAssumptions.doc) 
-	* [Generalized Least Squares](https://en.wikipedia.org/wiki/Generalized_least_squares) 
-	* [Newey–West Estimator](https://en.wikipedia.org/wiki/Newey%E2%80%93West_estimator) 
-	* [Cochrane–Orcutt Estimation](https://en.wikipedia.org/wiki/Cochrane%E2%80%93Orcutt_estimation) 
 * Shrinkage methods
 	* Section 3.4.1, 3.4.3, 3.4.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf)
 	* [Regression Shrinkage and Selection via the Lasso](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.7574&rep=rep1&type=pdf) 
@@ -58,29 +53,19 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Time Series Analysis
-* Stationarity 
-	* Section 2.1, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-* Serial Correlation
-	* Section 2.2, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-* White Noise
-	* Section 2.3, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-* ARMA
-	* Section 2.6, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-* Unit-Root Nonstationarity
-	* Section 2.7, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-* Markov Switching Model
-	* Section 4.1.4, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
+* Linear time series model
+	* Section 2.1, 2.2, 2.3, 2.6, 2.7, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
 * ARCH and GARCH models
-	* Section 3.4, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-	* Section 3.5, 3.6, 3.8, 3.9, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-* Vector Autoregressive Model
+	* Section 3.4, 3.5, 3.6, 3.8, 3.9, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
+* Vector autoregressive model
 	* Section 8.2, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-* Cointegration and Error-Correction Model
+* Cointegration and error-correction model
 	* [Cointegration](https://en.wikipedia.org/wiki/Cointegration) 
 	* [Error Correction Model](https://en.wikipedia.org/wiki/Error_correction_model) 
 	* [Cointegration: The Engle and Granger Approach](https://warwick.ac.uk/fac/soc/economics/staff/gboero/personal/hand2_cointeg.pdf) 
-* State-Space Model, Structural Time Series, and Kalman Filter
-	* Chapter 5, [A Very Short Course on Time Series Analysis](https://bookdown.org/rdpeng/timeseriesbook/state-space-models-and-the-kalman-filter.html) 
+* Markov switching model
+	* Section 4.1.4, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
+* Structural time Series model
 	* [Forecasting at Scale](https://peerj.com/preprints/3190.pdf) 
 	* [Predicting the Present with Bayesian Structural Time Series](https://people.ischool.berkeley.edu/~hal/Papers/2013/pred-present-with-bsts.pdf) 
 
