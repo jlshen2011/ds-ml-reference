@@ -20,10 +20,13 @@
 
 ### Preface
 [back](#Table-of-Contents)
+
 This list comprises recommended readings to help you prepare for data science and machine learning interviews. The topics covered span from basic statistics to advanced applications of deep learning in recommendation systems, computer vision, and NLP. These selections are extracted from my comprehensive e-book, *Data Science and Machine Learning Interview References*, which delves into the subjects with even greater breadth and depth.
 
 
 ### Probability and Statistics 
+[back](#Table-of-Contents)
+
 * Probability space and measure
 	* [Probability Space](https://en.wikipedia.org/wiki/Probability_space)
 * Common probability distributions
@@ -40,28 +43,27 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Linear Regression
+[back](#Table-of-Contents)
+
 * Ordinary least squares
 	* Section 3.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 	* [Coefficient of Determination](https://en.wikipedia.org/wiki/Coefficient_of_determination) 
 	* [Violations of Classical Linear Regression Assumptions](https://www.bauer.uh.edu/jhess/documents/ViolationsofClassicalLinearRegressionAssumptions.doc) 
 * Shrinkage methods
 	* Section 3.4.1, 3.4.3, 3.4.3, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf)
-	* [Regression Shrinkage and Selection via the Lasso](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.35.7574&rep=rep1&type=pdf) 
-	* [Regularization and Variable Selection via the Elastic Net](https://www.jstor.org/stable/3647580?seq=1) 
 * Quantile regression
-	* [Quantile Regression](https://en.wikipedia.org/wiki/Quantile_regression) 
+	* [Quantile Regression](https://en.wikipedia.org/wiki/Quantile_regression)
 
 
 ### Time Series Analysis
+[back](#Table-of-Contents)
+
 * Linear time series model
 	* Section 2.1, 2.2, 2.3, 2.6, 2.7, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-* ARCH and GARCH models
+* Volatility model
 	* Section 3.4, 3.5, 3.6, 3.8, 3.9, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
-* Vector autoregressive model
-	* Section 8.2, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
 * Cointegration and error-correction model
 	* [Cointegration](https://en.wikipedia.org/wiki/Cointegration) 
-	* [Error Correction Model](https://en.wikipedia.org/wiki/Error_correction_model) 
 	* [Cointegration: The Engle and Granger Approach](https://warwick.ac.uk/fac/soc/economics/staff/gboero/personal/hand2_cointeg.pdf) 
 * Markov switching model
 	* Section 4.1.4, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
@@ -71,6 +73,8 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Supervised Learning
+[back](#Table-of-Contents)
+
 * Logistic regression
 	* Section 4.4, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 * Naive Bayes classifier
@@ -92,13 +96,14 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Unsupervised Learning
+[back](#Table-of-Contents)
+
 * K-means clustering
 	* Section 8.5.1, 14.3.6, 14.3.7, 14.3.11, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 * Hierarchical clustering
 	* Section 14.3.12, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 * Density-based clustering
 	* [A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise](https://www.aaai.org/Papers/KDD/1996/KDD96-037.pdf) 
-	* [OPTICS: Ordering Points to Identify the Clustering Structure](https://www.dbs.ifi.lmu.de/Publikationen/Papers/OPTICS.pdf) 
 * Principal component analysis
 	* [Principal Component Analysis](https://www.comp.nus.edu.sg/~cs5240/lecture/pca.pdf)  
 
