@@ -192,23 +192,25 @@ This list comprises recommended readings to help you prepare for data science an
 	* [The Illustrated Word2Vec](http://jalammar.github.io/illustrated-word2vec/) 
 	* [Word2Vec Tutorial - The Skip-Gram Model](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)
 	* [Word2Vec Tutorial Part 2 - Negative Sampling](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/) 
-	* [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/) 
-* Large language model
-	* Transformers: [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf) 
+* Attention and Transformers
+	* [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf) 
+	* [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) 
+	* [Visualizing a Neural Machine Translation Model](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/) 
+* ELMo
 	* ELMo: [Deep Contextualized Word Representations](https://arxiv.org/pdf/1802.05365.pdf) 
+	* [Deep Contextualized Word Representations with ELMo](https://www.mihaileric.com/posts/deep-contextualized-word-representations-elmo/) 	
+* GPT families
 	* GPT-1: [Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)
 	* GPT-2: [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) 
-	* [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf) 	
+	* [The Illustrated GPT-2](http://jalammar.github.io/illustrated-gpt2/) 	
 	* GPT-3: [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) 
-	* [LLaMA: Open and Efficient Foundation Language Models](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.8562-6/333078981_693988129081760_4712707815225756708_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=ad8a9d&_nc_ohc=p20b5GlumjoAX_L38O5&_nc_ht=scontent-sjc3-1.xx&oh=00_AfD2a62cs5euKCoMwRFPTOXj8BCj48Vpiow3hIU6JwSQVg&oe=647087E2)
-	* [GPT-4 Technical Report](https://arxiv.org/pdf/2303.08774.pdf)	
-* Blogs and tutorals
-	* [Visualizing a Neural Machine Translation Model](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/) 
-	* [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) 
-	* [Deep Contextualized Word Representations with ELMo](https://www.mihaileric.com/posts/deep-contextualized-word-representations-elmo/) 
-	* [The Illustrated GPT-2](http://jalammar.github.io/illustrated-gpt2/) 
+* BERT
+	* [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf) 	
 	* [The Illustrated BERT, ELMo, and Co.](http://jalammar.github.io/illustrated-bert/) 
 	* [A Visual Guide to Using BERT for the First Time](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) 
+* Other LLMs
+	* [LLaMA: Open and Efficient Foundation Language Models](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.8562-6/333078981_693988129081760_4712707815225756708_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=ad8a9d&_nc_ohc=p20b5GlumjoAX_L38O5&_nc_ht=scontent-sjc3-1.xx&oh=00_AfD2a62cs5euKCoMwRFPTOXj8BCj48Vpiow3hIU6JwSQVg&oe=647087E2)
+
 
 
 ### Deep Recommendation
