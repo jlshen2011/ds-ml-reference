@@ -19,13 +19,13 @@
 
 
 ### Preface
-[back](#Table-of-Contents)
+[[back](#Table-of-Contents)]
 
 This list comprises recommended readings to help you prepare for data science and machine learning interviews. The topics covered span from basic statistics to advanced applications of deep learning in recommendation systems, computer vision, and NLP. These selections are extracted from my comprehensive e-book, *Data Science and Machine Learning Interview References*, which delves into the subjects with even greater breadth and depth.
 
 
 ### Probability and Statistics 
-[back](#Table-of-Contents)
+[[back](#Table-of-Contents)]
 
 * Probability space and measure
 	* [Probability Space](https://en.wikipedia.org/wiki/Probability_space)
@@ -43,7 +43,7 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Linear Regression
-[back](#Table-of-Contents)
+[[back](#Table-of-Contents)]
 
 * Ordinary least squares
 	* Section 3.2, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
@@ -56,7 +56,7 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Time Series Analysis
-[back](#Table-of-Contents)
+[[back](#Table-of-Contents)]
 
 * Linear time series model
 	* Section 2.1, 2.2, 2.3, 2.6, 2.7, [Analysis of Financial Time Series, 3rd](https://www.wiley.com/en-us/Analysis+of+Financial+Time+Series%2C+3rd+Edition-p-9780470414354) 
@@ -73,7 +73,7 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Supervised Learning
-[back](#Table-of-Contents)
+[[back](#Table-of-Contents)]
 
 * Logistic regression
 	* Section 4.4, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
@@ -96,7 +96,7 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Unsupervised Learning
-[back](#Table-of-Contents)
+[[back](#Table-of-Contents)]
 
 * K-means clustering
 	* Section 8.5.1, 14.3.6, 14.3.7, 14.3.11, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
@@ -109,6 +109,8 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Optimization Methods
+[[back](#Table-of-Contents)]
+
 * Constrained optimization
 	* [Lagrange Multiplier](https://en.wikipedia.org/wiki/Lagrange_multiplier) 
 	* [Karush–Kuhn–Tucker Conditions](https://en.wikipedia.org/wiki/Karush%E2%80%93Kuhn%E2%80%93Tucker_conditions) 
@@ -121,6 +123,8 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Data Preparation
+[[back](#Table-of-Contents)]
+
 * Feature engineering
 	* [Standardization](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler) 
 	* [Normalization](https://scikit-learn.org/stable/modules/preprocessing.html#normalization) 
@@ -139,6 +143,8 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Model Evaluation
+[[back](#Table-of-Contents)]
+
 * Bias-variance tradeoff
 	* [Bias-Variance Tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) 
 	* [Overfitting](https://en.wikipedia.org/wiki/Overfitting) 
@@ -162,6 +168,8 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Deep Learning
+[[back](#Table-of-Contents)]
+
 * Overview
 	* [Deep Learning](https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf) 
 	* [A Selective Overview of Deep Learning](https://arxiv.org/pdf/1904.05526.pdf)  
@@ -185,6 +193,8 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Deep NLP
+[[back](#Table-of-Contents)]
+
 * Word2Vec
 	* [The Illustrated Word2Vec](http://jalammar.github.io/illustrated-word2vec/) 
 	* [Word2Vec Tutorial - The Skip-Gram Model](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)
@@ -209,6 +219,8 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Deep Recommendation
+[[back](#Table-of-Contents)]
+
 * Pre-ranking
 	* [COLD: Towards the Next Generation of Pre-Ranking System](https://arxiv.org/pdf/2007.16122.pdf)  
 	* [Collaborative Multi-modal Deep Learning for the Personalized Product Retrieval in Facebook Marketplace](https://arxiv.org/pdf/1805.12312.pdf) 
@@ -230,6 +242,8 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### A/B Testing and Causal Inference
+[[back](#Table-of-Contents)]
+
 * Classical methods
 	* [A Survey on Causal Inference](https://arxiv.org/pdf/2002.02770.pdf) 
 	* [An Introduction to Propensity Score Methods for Reducing the Effects of Confounding in Observational Studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144483/) 
@@ -249,6 +263,8 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Data Structures and Algorithms
+[[back](#Table-of-Contents)]
+
 * Asymptotics analysis
 	* [Solving Recurrences](https://docs.google.com/presentation/d/1L0cq2b7yb_n1bwyI2_BWHugGfZABxIu2r9ZXvTo4zuA/edit#slide=id.g820f38cd3e_0_0) 
 	* [Know Thy Complexities!](https://www.bigocheatsheet.com/) 
