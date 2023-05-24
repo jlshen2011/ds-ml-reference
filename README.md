@@ -238,21 +238,19 @@ This list comprises recommended readings to help you prepare for data science an
 [[back](#Table-of-Contents)]
 
 * Classical methods
-	* [A Survey on Causal Inference](https://arxiv.org/pdf/2002.02770.pdf) 
 	* [An Introduction to Propensity Score Methods for Reducing the Effects of Confounding in Observational Studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144483/) 
 	* [Difference-in-Differences Estimation](https://personal.utdallas.edu/~d.sul/Econo2/lect_10_diffindiffs.pdf) 
 * Uplift trees and meta-learners
 	* [Modeling Uplift Directly: Uplift Decision Tree with KL Divergence and Euclidean Distance as Splitting Criteria](https://tech.wayfair.com/data-science/2019/10/modeling-uplift-directly-uplift-decision-tree-with-kl-divergence-and-euclidean-distance-as-splitting-criteria/) 
-	* [Real-World Uplift Modelling with Significance-Based Uplift Trees](https://stochasticsolutions.com/pdf/sig-based-up-trees.pdf) 
 	* [Meta-Learner Algorithms](https://causalml.readthedocs.io/en/latest/methodology.html#meta-learner-algorithms)
 	* [Meta-Learners for Eestimating Heterogeneous Treatment Effects Using Machine Learning](https://arxiv.org/pdf/1706.03461.pdf) 
 	* [CausalML: Python Package for Causal Machine Learning](https://arxiv.org/pdf/2002.11631.pdf) 	
-* Causal inference in industry
+* More industry examples
+	* [Under the Hood of Uber’s Experimentation Platform](https://eng.uber.com/xp/) 
+	* [Using Causal Inference to Improve the Uber User Experience](https://eng.uber.com/causal-inference-at-uber/) 
 	* [Inferring Causal Impact Using Bayesian Structural Time-Series Models](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/41854.pdf) 
 	* [Online Controlled Experiments at Large Scale](http://chbrown.github.io/kdd-2013-usb/kdd/p1168.pdf) 
 	* [Online Experimentation at Microsoft](https://ai.stanford.edu/~ronnyk/ExPThinkWeek2009Public.pdf)
-	* [Under the Hood of Uber’s Experimentation Platform](https://eng.uber.com/xp/) 
-	* [Using Causal Inference to Improve the Uber User Experience](https://eng.uber.com/causal-inference-at-uber/) 
 
 
 ### Data Structures and Algorithms
