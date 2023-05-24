@@ -203,35 +203,24 @@ This list comprises recommended readings to help you prepare for data science an
 
 
 ### Deep Recommendation
-* [COLD: Towards the Next Generation of Pre-Ranking System](https://arxiv.org/pdf/2007.16122.pdf)  
-* [Collaborative Multi-modal Deep Learning for the Personalized Product Retrieval in Facebook Marketplace](https://arxiv.org/pdf/1805.12312.pdf) 
-* [Deep & Cross Network for Ad Click Predictions](https://arxiv.org/pdf/1708.05123.pdf) 
-* [Deep Interest Network for Click-Through Rate Prediction](https://arxiv.org/pdf/1706.06978.pdf) 
-* [Deep Learning Recommendation Model for Personalization and Recommendation Systems](https://arxiv.org/pdf/1906.00091.pdf) 
-* [Deep Neural Networks for YouTube Recommendations](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf) 
-* [Practice on Long Sequential User Behavior Modeling for Click-Through Rate Prediction](https://arxiv.org/pdf/1905.09248.pdf)
-* [Search-based User Interest Modeling with Lifelong Sequential Behavior Data for Click-Through Rate Prediction](https://arxiv.org/pdf/2006.05639.pdf) 
-* [Real-time Personalization using Embeddings for Search Ranking at Airbnb](https://dl.acm.org/doi/pdf/10.1145/3219819.3219885) 
-* [The Architectural Implications of Facebook's DNN-based Personalized Recommendation](https://arxiv.org/pdf/1906.03109.pdf) 
-* [Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf) 
-* [Powered by AI: Instagram’s Explore Recommender System](https://ai.facebook.com/blog/powered-by-ai-instagrams-explore-recommender-system/) 
-* [Practical Lessons from Predicting Clicks on Ads at Facebook](https://research.fb.com/wp-content/uploads/2016/11/practical-lessons-from-predicting-clicks-on-ads-at-facebook.pdf) 
-* [Talent Search and Recommendation Systems at LinkedIn](https://arxiv.org/pdf/1809.06481.pdf) 
-* [The Netflix Recommender System: Algorithms, Business Value, and Innovation](https://dl.acm.org/doi/pdf/10.1145/2843948) 
-* [Two Decades of Recommender Systems at Amazon.com](https://assets.amazon.science/76/9e/7eac89c14a838746e91dde0a5e9f/two-decades-of-recommender-systems-at-amazon.pdf) 
-* [Using Deep Learning at Scale in Twitter’s Timelines](https://blog.twitter.com/engineering/en_us/topics/insights/2017/using-deep-learning-at-scale-in-twitters-timelines.html) 
-* [Amazon Search: The Joy of Ranking Products](https://assets.amazon.science/89/cd/34289f1f4d25b5857d776bdf04d5/amazon-search-the-joy-of-ranking-products.pdf) 
-* [Applying Deep Learning To Airbnb Search](https://arxiv.org/pdf/1810.09591.pdf) 
-* [Bringing Personalized Search to Etsy](https://codeascraft.com/2020/10/29/bringing-personalized-search-to-etsy/) 
-* [Embedding-based Retrieval in Facebook Search](https://arxiv.org/pdf/2006.11632.pdf) 
-* [Food Discovery with Uber Eats: Building a Query Understanding Engine](https://eng.uber.com/uber-eats-query-understanding/) 
-* [Improving Deep Learning for Airbnb Search](https://arxiv.org/pdf/2002.05515.pdf)) 
-* [In-session Personalization for Talent Search](https://arxiv.org/pdf/1809.06488.pdf) 
-* [Learning to Rank Personalized Search Results in Professional Networks](https://arxiv.org/pdf/1605.04624.pdf) 
-* [Machine Learning-Powered Search Ranking of Airbnb Experiences](https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789) 
-* [MOBIUS: Towards the Next Generation of Query-Ad Matching in Baidu’s Sponsored Search](http://research.baidu.com/Public/uploads/5d12eca098d40.pdf) 
-* [Ranking Relevance in Yahoo Search](https://www.kdd.org/kdd2016/papers/files/adf0361-yinA.pdf) 
-* [Towards Personalized and Semantic Retrieval for E-commerce Search via Embedding Learning](https://arxiv.org/pdf/2006.02282.pdf) 
+* Pre-ranking
+	* [COLD: Towards the Next Generation of Pre-Ranking System](https://arxiv.org/pdf/2007.16122.pdf)  
+	* [Collaborative Multi-modal Deep Learning for the Personalized Product Retrieval in Facebook Marketplace](https://arxiv.org/pdf/1805.12312.pdf) 
+* Ranking
+	* [Deep & Cross Network for Ad Click Predictions](https://arxiv.org/pdf/1708.05123.pdf) 
+	* [Deep Learning Recommendation Model for Personalization and Recommendation Systems](https://arxiv.org/pdf/1906.00091.pdf) 
+	* [Deep Neural Networks for YouTube Recommendations](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf) 
+	* [The Architectural Implications of Facebook's DNN-based Personalized Recommendation](https://arxiv.org/pdf/1906.03109.pdf) 
+	* [Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf) 
+	* [Powered by AI: Instagram’s Explore Recommender System](https://ai.facebook.com/blog/powered-by-ai-instagrams-explore-recommender-system/) 	
+* Search
+	* [Real-time Personalization using Embeddings for Search Ranking at Airbnb](https://dl.acm.org/doi/pdf/10.1145/3219819.3219885) 
+	* [Embedding-based Retrieval in Facebook Search](https://arxiv.org/pdf/2006.11632.pdf) 
+
+* Misc
+	* [The Netflix Recommender System: Algorithms, Business Value, and Innovation](https://dl.acm.org/doi/pdf/10.1145/2843948) 
+	* [Two Decades of Recommender Systems at Amazon.com](https://assets.amazon.science/76/9e/7eac89c14a838746e91dde0a5e9f/two-decades-of-recommender-systems-at-amazon.pdf) 
+	* [Amazon Search: The Joy of Ranking Products](https://assets.amazon.science/89/cd/34289f1f4d25b5857d776bdf04d5/amazon-search-the-joy-of-ranking-products.pdf) 
 
 
 ### A/B Testing and Causal Inference
