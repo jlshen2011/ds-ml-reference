@@ -102,8 +102,6 @@ This list comprises recommended readings to help you prepare for data science an
 	* Section 8.5.1, 14.3.6, 14.3.7, 14.3.11, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 * Hierarchical clustering
 	* Section 14.3.12, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
-* Density-based clustering
-	* [A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise](https://www.aaai.org/Papers/KDD/1996/KDD96-037.pdf) 
 * Principal component analysis
 	* [Principal Component Analysis](https://www.comp.nus.edu.sg/~cs5240/lecture/pca.pdf)  
 
@@ -135,7 +133,6 @@ This list comprises recommended readings to help you prepare for data science an
 	* [Ordinal Encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OrdinalEncoder.html#sklearn.preprocessing.OrdinalEncoder) 
 * Missing data
 	* [The Prevention and Handling of the Missing Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3668100/) 
-	* [Statistical Analysis with Missing Data, 3rd](https://www.wiley.com/en-us/Statistical+Analysis+with+Missing+Data%2C+3rd+Edition-p-9780470526798) 
 * Imbalanced labels
 	* [SMOTE: Synthetic Minority Over-Sampling Technique](https://arxiv.org/pdf/1106.1813.pdf) 
 	* [Imbalanced-learn: A Python Toolbox to Tackle the Curse of Imbalanced Datasets in Machine Learning](https://www.jmlr.org/papers/volume18/16-365/16-365.pdf) 
@@ -152,19 +149,15 @@ This list comprises recommended readings to help you prepare for data science an
 	* Section 7.10, [Elements of Statistical Learning, 2nd](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12_toc.pdf) 
 * Hyperparameter optimization
 	* [Exhaustive Grid Search](https://scikit-learn.org/stable/modules/grid_search.html#grid-search) 
-	* [Randomized Parameter Search](https://scikit-learn.org/stable/modules/grid_search.html#randomized-parameter-search) 
+	* [Randomized Parameter Search](https://scikit-learn.org/stable/modules/grid_search.html#randomized-parameter-search)
 	* [CSC321 lecture 21: Bayesian Hyperparameter Optimization](https://netman.aiops.org/~peidan/ANM2019/2.MachineLearningBasics/LectureCoverage/27.BayesianOptimization.pdf) 
-	* [Practical Bayesian Optimization of Machine Learning Algorithms](https://proceedings.neurips.cc/paper/2012/file/05311655a15b75fab86956663e1819cd-Paper.pdf) 
 * Evaluation metrics
 	* [Precision and Recall](https://en.wikipedia.org/wiki/Precision_and_recall) 
 	* [F1-Score](https://en.wikipedia.org/wiki/F-score) 
 	* [Confusion Matrix](https://en.wikipedia.org/wiki/Confusion_matrix) 
 	* [Area Under the ROC Curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve) 
-	* [Mean Squared Error](https://en.wikipedia.org/wiki/Mean_squared_error) 
-	* [Mean Absolute Deviation](https://en.wikipedia.org/wiki/Average_absolute_deviation) 
 	* [Recall and Precision at $K$ for Recommender Systems](https://medium.com/@m_n_malaeb/recall-and-precision-at-k-for-recommender-systems-618483226c54) 
 	* [Normalized Discounted Cumulative Gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain#Normalized_DCG) 
-	* [Ranking Measures and Loss Functions in Learning to Rank](https://papers.nips.cc/paper/2009/file/2f55707d4193dc27118a0f19a1985716-Paper.pdf) 
 
 
 ### Deep Learning
@@ -241,7 +234,7 @@ This list comprises recommended readings to help you prepare for data science an
 	* [Amazon Search: The Joy of Ranking Products](https://assets.amazon.science/89/cd/34289f1f4d25b5857d776bdf04d5/amazon-search-the-joy-of-ranking-products.pdf) 
 
 
-### A/B Testing and Causal Inference
+### Causal Inference
 [[back](#Table-of-Contents)]
 
 * Classical methods
@@ -253,8 +246,8 @@ This list comprises recommended readings to help you prepare for data science an
 	* [Real-World Uplift Modelling with Significance-Based Uplift Trees](https://stochasticsolutions.com/pdf/sig-based-up-trees.pdf) 
 	* [Meta-Learner Algorithms](https://causalml.readthedocs.io/en/latest/methodology.html#meta-learner-algorithms)
 	* [Meta-Learners for Eestimating Heterogeneous Treatment Effects Using Machine Learning](https://arxiv.org/pdf/1706.03461.pdf) 
+	* [CausalML: Python Package for Causal Machine Learning](https://arxiv.org/pdf/2002.11631.pdf) 	
 * Causal inference in industry
-	* [CausalML: Python Package for Causal Machine Learning](https://arxiv.org/pdf/2002.11631.pdf) 
 	* [Inferring Causal Impact Using Bayesian Structural Time-Series Models](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/41854.pdf) 
 	* [Online Controlled Experiments at Large Scale](http://chbrown.github.io/kdd-2013-usb/kdd/p1168.pdf) 
 	* [Online Experimentation at Microsoft](https://ai.stanford.edu/~ronnyk/ExPThinkWeek2009Public.pdf)
@@ -270,13 +263,8 @@ This list comprises recommended readings to help you prepare for data science an
 	* [Know Thy Complexities!](https://www.bigocheatsheet.com/) 
 * Linear data structures
 	* [Difference between Linked List and Arrays](https://www.faceprep.in/data-structures/linked-list-vs-array/) 
-	* [Stack](https://en.wikipedia.org/wiki/Stack_%28abstract_data_type%29) 
-	* [Queue](https://en.wikipedia.org/wiki/Queue_%28abstract_data_type%29) 
 	* [Hashing!](https://docs.google.com/presentation/d/1GugHPgUl282bwviOm-K9VHdxSVKlYvi0qXFXZSCcfQY/edit#slide=id.g8b5bddc967_0_114) 
-	* [Heap](https://en.wikipedia.org/wiki/Heap_%28data_structure%29) 
-	* [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue) 
 * Trees and graphs
-	* [Binary Search Trees & Red-Black Trees!](https://docs.google.com/presentation/d/14760WScwlpPwWW_Wi-aEWV5njmiVjliLvWLrdSzmGzQ/edit#slide=id.g8b93bcfe26_0_124) 
 	* [Tree Traversal](https://en.wikipedia.org/wiki/Tree_traversal) 
 	* [Trie](https://en.wikipedia.org/wiki/Trie) 
 	* [Graphs, BFS & DFS](https://docs.google.com/presentation/d/1c5wf2xvOqOmXORO0lAf11JAPUyzVap7gOKkD8V3UTU8/edit#slide=id.g8d231503f1_0_118) 
